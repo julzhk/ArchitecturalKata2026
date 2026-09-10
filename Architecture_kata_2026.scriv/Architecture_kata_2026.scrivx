@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="DC0850C4-534D-4312-AE8F-F2A272A775CF" Version="2.0" Creator="SCRMAC-3.5.1-17446" Device="titan" Author="" Modified="2026-09-09 22:39:39 -0300" ModID="090E38B9-3803-4907-9011-4F5088437844">
+<ScrivenerProject Identifier="DC0850C4-534D-4312-AE8F-F2A272A775CF" Version="2.0" Creator="SCRMAC-3.5.1-17446" Device="titan" Author="" Modified="2026-09-10 14:48:41 -0300" ModID="79561D97-36C4-45D7-9B24-034E17D8B7B4">
     <Binder>
         <BinderItem UUID="AD107F76-1964-416F-8DD0-01B59C5A3060" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
             <Title>About this Template</Title>
@@ -31,7 +31,7 @@
                 <TextSelection>488,0</TextSelection>
             </TextSettings>
         </BinderItem>
-        <BinderItem UUID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 22:28:01 -0300">
+        <BinderItem UUID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-10 10:18:43 -0300">
             <Title>Metadata</Title>
             <MetaData>
                 <SectionType>82514BF5-E0E3-4741-98AE-F814CAE63244</SectionType>
@@ -39,7 +39,7 @@
                 <IconFileName>{🎛}</IconFileName>
             </MetaData>
             <TextSettings>
-                <TextSelection>754,0</TextSelection>
+                <TextSelection>620,0</TextSelection>
             </TextSettings>
             <Bookmarks>
                 <Bookmark BinderUUID="E8956215-97C1-41DA-8AB9-50C2891EA656"/>
@@ -59,20 +59,29 @@
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem UUID="2DFE9CFF-07B9-49E5-A0CA-AF23DBB63535" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 22:35:49 -0300">
+                <BinderItem UUID="2DFE9CFF-07B9-49E5-A0CA-AF23DBB63535" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-10 14:03:47 -0300">
                     <Title>Process</Title>
                     <MetaData>
                         <StatusID>4</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>604,0</TextSelection>
+                        <TextSelection>434,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="C0115381-CFEA-4D13-BB6A-C990B005A2EC" Type="Text" Created="2026-09-09 22:35:53 -0300" Modified="2026-09-09 22:38:08 -0300">
+                <BinderItem UUID="C0115381-CFEA-4D13-BB6A-C990B005A2EC" Type="Text" Created="2026-09-09 22:35:53 -0300" Modified="2026-09-10 11:32:10 -0300">
                     <Title>Review of the Project Scope</Title>
                     <MetaData>
                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>961,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A109A89F-D1F8-4EE8-8AEB-77AE03705030" Type="Folder" Created="2026-09-10 14:03:58 -0300" Modified="2026-09-10 14:04:02 -0300">
+                    <Title>ADRs</Title>
+                    <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
@@ -87,536 +96,32 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem UUID="503B0BE4-AC63-43ED-B10B-5EE7867B9ED7" Type="Text" Created="2026-09-09 22:21:59 -0300" Modified="2026-09-09 22:22:09 -0300">
-                    <Title>Reference Doc</Title>
+                <BinderItem UUID="000FD30C-A6F3-47B9-9C5E-A995D01C3B4C" Type="Text" Created="2026-09-10 10:21:05 -0300" Modified="2026-09-10 10:25:22 -0300">
+                    <Title>follow up links</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>735,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="51EA1C20-B9EB-4D83-92CE-248B436103D6" Type="Text" Created="2026-09-10 14:01:25 -0300" Modified="2026-09-10 14:01:25 -0300">
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
-                    <Children>
-                        <BinderItem UUID="ABD194A7-0E88-4F19-B4D6-09A367CAEFBC" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                            <Title>Abstract</Title>
-                            <MetaData>
-                                <StatusID>4</StatusID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>72,776</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="693D5512-2AE2-40A4-B78E-CC9941AAF127" Type="Text" Created="2026-09-09 22:19:46 -0300" Modified="2026-09-09 22:19:46 -0300">
-                            <Title>Marginalia</Title>
-                            <MetaData>
-                                <SectionType>5E0103DC-2589-4470-868C-28F73457CA91</SectionType>
-                                <StatusID>5</StatusID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>247,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="874FC928-F6CD-4B4B-A8C9-5400A210E27C" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                            <Title>Introduction</Title>
-                            <MetaData>
-                                <SectionType>3F514CCD-B716-4FD0-8ACC-F1F2072B9F65</SectionType>
-                                <StatusID>4</StatusID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>2522,5</TextSelection>
-                            </TextSettings>
-                            <Bookmarks>
-                                <Bookmark BinderUUID="B3017584-77DF-4751-89E1-EA62098C1BDB"/>
-                            </Bookmarks>
-                        </BinderItem>
-                        <BinderItem UUID="C7DE6C79-67F9-4873-BD08-376A867C1B6E" Type="Folder" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                            <Title>Methods</Title>
-                            <MetaData>
-                                <SectionType>2CE86258-6E74-458B-9A30-80E4576FF4EB</SectionType>
-                                <LabelID>0</LabelID>
-                                <StatusID>4</StatusID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                            <CorkboardAndOutliner>
-                                <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
-                                <OutlinerExpandedState>
-                                    <ItemID>A14DF5BB-79FC-44CE-8E56-85EB37D97781</ItemID>
-                                    <ItemID>970591F7-5187-42B5-ABD1-3395110CE19E</ItemID>
-                                </OutlinerExpandedState>
-                            </CorkboardAndOutliner>
-                            <Children>
-                                <BinderItem UUID="3EA388E0-C7E3-45D2-8D8E-C8DD7AE862F6" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                    <Title>Data Recording</Title>
-                                    <MetaData>
-                                        <LabelID>0</LabelID>
-                                        <StatusID>3</StatusID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>151,0</TextSelection>
-                                    </TextSettings>
-                                </BinderItem>
-                                <BinderItem UUID="BC65073D-ED94-401E-A1AB-1A62306E4ACA" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                    <Title>Experimental Perturbations</Title>
-                                    <MetaData>
-                                        <LabelID>0</LabelID>
-                                        <StatusID>3</StatusID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>2275,286</TextSelection>
-                                    </TextSettings>
-                                    <Bookmarks>
-                                        <Bookmark BinderUUID="2A3CE4F8-B8AE-4E24-94A0-DA38CBE20492"/>
-                                    </Bookmarks>
-                                </BinderItem>
-                                <BinderItem UUID="A14DF5BB-79FC-44CE-8E56-85EB37D97781" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                    <Title>Stimulus Plotting</Title>
-                                    <MetaData>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>238,0</TextSelection>
-                                    </TextSettings>
-                                    <Bookmarks>
-                                        <Bookmark BinderUUID="AD107F76-1964-416F-8DD0-01B59C5A3060"/>
-                                    </Bookmarks>
-                                    <Children>
-                                        <BinderItem UUID="CDBF9C45-8619-4A78-B90A-47CE76E844D3" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>R Code</Title>
-                                            <MetaData>
-                                                <SectionType>023D6712-1050-4148-9E55-7FB4F3277A1B</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Figures and Graphs</IconFileName>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>394,0</TextSelection>
-                                            </TextSettings>
-                                        </BinderItem>
-                                        <BinderItem UUID="A77B00CC-4358-4C89-96ED-7C547883D9C8" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Text</Title>
-                                            <MetaData>
-                                                <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>272,0</TextSelection>
-                                            </TextSettings>
-                                            <Bookmarks>
-                                                <Bookmark BinderUUID="ABD194A7-0E88-4F19-B4D6-09A367CAEFBC"/>
-                                            </Bookmarks>
-                                        </BinderItem>
-                                    </Children>
-                                </BinderItem>
-                                <BinderItem UUID="970591F7-5187-42B5-ABD1-3395110CE19E" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                    <Title>Statistical Analysis</Title>
-                                    <MetaData>
-                                        <LabelID>0</LabelID>
-                                        <StatusID>3</StatusID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>836,422</TextSelection>
-                                    </TextSettings>
-                                    <Children>
-                                        <BinderItem UUID="538C111A-6FE6-4B35-9B93-14232AF1572B" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Graphviz Figure</Title>
-                                            <MetaData>
-                                                <SectionType>6C419904-1493-4703-846D-EBA2B91208E0</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Figures and Graphs</IconFileName>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>305,0</TextSelection>
-                                            </TextSettings>
-                                        </BinderItem>
-                                        <BinderItem UUID="57175DA2-BFF9-4381-9358-0C5843427049" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Text</Title>
-                                            <MetaData>
-                                                <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>382,0</TextSelection>
-                                            </TextSettings>
-                                        </BinderItem>
-                                        <BinderItem UUID="11709F70-97CB-4CF6-B600-51EE0E1FCD5E" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Mermaid Figure</Title>
-                                            <MetaData>
-                                                <SectionType>E93F9107-A3D9-44D0-85BD-2F3F939276DC</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Figures and Graphs</IconFileName>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>141,0</TextSelection>
-                                            </TextSettings>
-                                        </BinderItem>
-                                        <BinderItem UUID="671E32DD-A9C3-4576-A65A-70B920FCDFD9" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Text</Title>
-                                            <MetaData>
-                                                <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>1164,0</TextSelection>
-                                            </TextSettings>
-                                        </BinderItem>
-                                        <BinderItem UUID="0771D8C0-9C32-44E0-B995-153D7A26675E" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Figure + Attributes</Title>
-                                            <MetaData>
-                                                <SectionType>18814617-764A-4EA3-A1B7-F190D2D86BCB</SectionType>
-                                                <StatusID>5</StatusID>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <NotesTextSelection>0,71</NotesTextSelection>
-                                                <IconFileName>Figures and Graphs</IconFileName>
-                                                <CustomMetaData>
-                                                    <MetaDataItem>
-                                                        <FieldID>width</FieldID>
-                                                        <Value>3cm</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>id</FieldID>
-                                                        <Value>#fig-withattributes</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>class</FieldID>
-                                                        <Value>.myclass</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value>fig-align="right"</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>height</FieldID>
-                                                        <Value>2cm</Value>
-                                                    </MetaDataItem>
-                                                </CustomMetaData>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>247,0</TextSelection>
-                                            </TextSettings>
-                                            <Bookmarks>
-                                                <Bookmark BinderUUID="AD107F76-1964-416F-8DD0-01B59C5A3060"/>
-                                                <Bookmark BinderUUID="E8956215-97C1-41DA-8AB9-50C2891EA656"/>
-                                            </Bookmarks>
-                                        </BinderItem>
-                                    </Children>
-                                </BinderItem>
-                            </Children>
-                        </BinderItem>
-                        <BinderItem UUID="C63B82F3-A5A4-434B-B980-B35638063314" Type="Folder" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                            <Title>Results</Title>
-                            <MetaData>
-                                <SectionType>2CE86258-6E74-458B-9A30-80E4576FF4EB</SectionType>
-                                <LabelID>1</LabelID>
-                                <StatusID>4</StatusID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                            <Children>
-                                <BinderItem UUID="B1C2539F-161E-4BFA-BAB0-F0852C43338A" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                    <Title>Lunar Cycles</Title>
-                                    <MetaData>
-                                        <LabelID>1</LabelID>
-                                        <StatusID>3</StatusID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>616,0</TextSelection>
-                                    </TextSettings>
-                                    <Bookmarks>
-                                        <Bookmark BinderUUID="874FC928-F6CD-4B4B-A8C9-5400A210E27C"/>
-                                    </Bookmarks>
-                                    <Children>
-                                        <BinderItem UUID="0CD37C9C-B62F-44D6-9290-BE255E64CBCC" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <MetaData>
-                                                <SectionType>DA258D28-E0C6-4A94-B17B-223EAD20F243</SectionType>
-                                                <StatusID>5</StatusID>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Figures and Graphs</IconFileName>
-                                                <CustomMetaData>
-                                                    <MetaDataItem>
-                                                        <FieldID>id</FieldID>
-                                                        <Value>#fig-elespan3</Value>
-                                                    </MetaDataItem>
-                                                </CustomMetaData>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>155,0</TextSelection>
-                                            </TextSettings>
-                                            <Bookmarks>
-                                                <Bookmark BinderUUID="ABD194A7-0E88-4F19-B4D6-09A367CAEFBC"/>
-                                            </Bookmarks>
-                                        </BinderItem>
-                                        <BinderItem UUID="AB20E377-AA9F-46EB-9D42-CFDA75D5D58C" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <MetaData>
-                                                <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>324,0</TextSelection>
-                                            </TextSettings>
-                                            <Bookmarks>
-                                                <Bookmark BinderUUID="ABD194A7-0E88-4F19-B4D6-09A367CAEFBC"/>
-                                            </Bookmarks>
-                                        </BinderItem>
-                                        <BinderItem UUID="0FEBFFB9-BE9B-405B-A67E-41D0B40C345A" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Multipart Table</Title>
-                                            <MetaData>
-                                                <SectionType>20DEA10D-14B0-49EC-884A-DFA9F5CAC03A</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Figures and Graphs</IconFileName>
-                                                <CustomMetaData>
-                                                    <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value> layout-ncol=1</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>id</FieldID>
-                                                        <Value>#tbl-panel2</Value>
-                                                    </MetaDataItem>
-                                                </CustomMetaData>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>528,0</TextSelection>
-                                            </TextSettings>
-                                        </BinderItem>
-                                    </Children>
-                                </BinderItem>
-                                <BinderItem UUID="F8BC2FA3-3A32-489C-952D-912909D9543F" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                    <Title>Solar Cycles</Title>
-                                    <MetaData>
-                                        <LabelID>1</LabelID>
-                                        <StatusID>3</StatusID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>640,0</TextSelection>
-                                    </TextSettings>
-                                    <Children>
-                                        <BinderItem UUID="2A3CE4F8-B8AE-4E24-94A0-DA38CBE20492" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Multipart Figure</Title>
-                                            <MetaData>
-                                                <SectionType>F613650E-1CDE-409A-A972-431F7E206746</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Figures and Graphs</IconFileName>
-                                                <CustomMetaData>
-                                                    <MetaDataItem>
-                                                        <FieldID>attributes</FieldID>
-                                                        <Value>layout-ncol=2 layout-valign="bottom"</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>id</FieldID>
-                                                        <Value>#fig-elephants2</Value>
-                                                    </MetaDataItem>
-                                                    <MetaDataItem>
-                                                        <FieldID>class</FieldID>
-                                                        <Value>.column-body</Value>
-                                                    </MetaDataItem>
-                                                </CustomMetaData>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>27,0</TextSelection>
-                                            </TextSettings>
-                                            <Bookmarks>
-                                                <Bookmark BinderUUID="AD107F76-1964-416F-8DD0-01B59C5A3060"/>
-                                            </Bookmarks>
-                                        </BinderItem>
-                                        <BinderItem UUID="A6D02C06-BC06-40BB-9B28-D402C89F3D84" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                            <Title>Caution Callout </Title>
-                                            <MetaData>
-                                                <SectionType>679A55AF-9F4D-44FD-A45C-662B050A3213</SectionType>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Information</IconFileName>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <TextSelection>289,0</TextSelection>
-                                            </TextSettings>
-                                        </BinderItem>
-                                    </Children>
-                                </BinderItem>
-                            </Children>
-                        </BinderItem>
-                        <BinderItem UUID="B3017584-77DF-4751-89E1-EA62098C1BDB" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                            <Title>Discussion</Title>
-                            <MetaData>
-                                <SectionType>3F514CCD-B716-4FD0-8ACC-F1F2072B9F65</SectionType>
-                                <StatusID>4</StatusID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>333,17</TextSelection>
-                            </TextSettings>
-                            <Bookmarks>
-                                <Bookmark BinderUUID="874FC928-F6CD-4B4B-A8C9-5400A210E27C"/>
-                            </Bookmarks>
-                            <Children>
-                                <BinderItem UUID="E5DA4A67-63A9-4CB1-8886-CE7761A62A5B" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                    <Title>Marginalia</Title>
-                                    <MetaData>
-                                        <SectionType>5E0103DC-2589-4470-868C-28F73457CA91</SectionType>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>266,0</TextSelection>
-                                    </TextSettings>
-                                </BinderItem>
-                                <BinderItem UUID="F1AA3BE0-F47B-44A4-9681-B165BEDB56C7" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                                    <MetaData>
-                                        <SectionType>5AD39B0F-DA85-4B21-A533-830148C15C93</SectionType>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>714,0</TextSelection>
-                                    </TextSettings>
-                                </BinderItem>
-                            </Children>
-                        </BinderItem>
-                        <BinderItem UUID="E6204736-36FA-48B6-A26B-865057BCFEB5" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                            <Title>Acknowledgments</Title>
-                            <MetaData>
-                                <SectionType>C335CD73-E248-48CB-9E43-BABA1C8683F5</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>294,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="6777C5FF-BCD4-43E1-9A65-8AB83586DDD7" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                            <Title>Conflicts of Interest</Title>
-                            <MetaData>
-                                <SectionType>C335CD73-E248-48CB-9E43-BABA1C8683F5</SectionType>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>67,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="DAE0B6CC-07A9-46F2-ACED-44F8DD10D299" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                            <Title>Bibliography</Title>
-                            <MetaData>
-                                <SectionType>52D3A058-E83B-4CAD-B905-648F31414B9B</SectionType>
-                                <StatusID>4</StatusID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                    </Children>
                 </BinderItem>
-                <BinderItem UUID="D3758D51-73E1-41A3-9947-FF13D054291A" Type="Image" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                    <Title>Placeholder</Title>
+                <BinderItem UUID="CDDF52AE-102B-4FA9-87E7-E1C3F100AF10" Type="WebArchive" Created="2026-09-10 14:02:54 -0300" Modified="2026-09-10 14:03:11 -0300">
+                    <Title>MQTT + Events</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>png</FileExtension>
-                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
-                        <PreferredExternalApplication>/System/Applications/Preview.app</PreferredExternalApplication>
+                        <FileExtension>webarchive</FileExtension>
                     </MetaData>
                     <MediaSettings>
-                        <ImageScaleFactor>1.0</ImageScaleFactor>
-                        <ImageRotation>None</ImageRotation>
-                        <ImageScalesProportionally>No</ImageScalesProportionally>
+                        <OriginalURL>https://claude.ai/code/artifact/4f7bf866-8d5b-4be0-87b0-d45be46b69d9</OriginalURL>
                     </MediaSettings>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="96690C34-1F3E-4364-9883-79E52C6E4086"/>
-                        <Bookmark BinderUUID="E8956215-97C1-41DA-8AB9-50C2891EA656"/>
-                    </Bookmarks>
-                </BinderItem>
-                <BinderItem UUID="C960813C-1D04-4F44-BD22-BB0F2DB282E0" Type="Image" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                    <Title>Elephant 1</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>jpg</FileExtension>
-                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
-                    </MetaData>
-                    <MediaSettings>
-                        <ImageScaleFactor>1.0</ImageScaleFactor>
-                        <ImageRotation>None</ImageRotation>
-                        <ImageScalesProportionally>No</ImageScalesProportionally>
-                    </MediaSettings>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="874FC928-F6CD-4B4B-A8C9-5400A210E27C"/>
-                        <Bookmark BinderUUID="B1C2539F-161E-4BFA-BAB0-F0852C43338A"/>
-                    </Bookmarks>
-                </BinderItem>
-                <BinderItem UUID="C3B826DA-2B69-433E-AE8F-96FD8BC82EBB" Type="Image" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                    <Title>Elephant 2</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>jpg</FileExtension>
-                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
-                    </MetaData>
-                    <MediaSettings>
-                        <ImageScaleFactor>1.0</ImageScaleFactor>
-                        <ImageRotation>None</ImageRotation>
-                        <ImageScalesProportionally>No</ImageScalesProportionally>
-                    </MediaSettings>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="BC65073D-ED94-401E-A1AB-1A62306E4ACA"/>
-                    </Bookmarks>
-                </BinderItem>
-                <BinderItem UUID="A71775B2-1366-4180-8923-3810E8FC6611" Type="Image" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                    <Title>Elephant 3</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>jpg</FileExtension>
-                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
-                    </MetaData>
-                    <MediaSettings>
-                        <ImageScaleFactor>1.0</ImageScaleFactor>
-                        <ImageRotation>None</ImageRotation>
-                        <ImageScalesProportionally>No</ImageScalesProportionally>
-                    </MediaSettings>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="BC65073D-ED94-401E-A1AB-1A62306E4ACA"/>
-                        <Bookmark BinderUUID="3EA388E0-C7E3-45D2-8D8E-C8DD7AE862F6"/>
-                        <Bookmark BinderUUID="B3017584-77DF-4751-89E1-EA62098C1BDB"/>
-                        <Bookmark BinderUUID="0771D8C0-9C32-44E0-B995-153D7A26675E"/>
-                    </Bookmarks>
-                </BinderItem>
-                <BinderItem UUID="3B1A06ED-3252-475A-9C22-DD92A4707DB1" Type="Image" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                    <Title>cover</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>png</FileExtension>
-                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
-                    </MetaData>
-                    <MediaSettings>
-                        <ImageScaleFactor>1.0</ImageScaleFactor>
-                        <ImageRotation>None</ImageRotation>
-                        <ImageScalesProportionally>No</ImageScalesProportionally>
-                    </MediaSettings>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55"/>
-                    </Bookmarks>
-                </BinderItem>
-                <BinderItem UUID="BC3362E8-2128-48EF-AF04-9717113AEA55" Type="Other" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                    <Title>Core</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>json</FileExtension>
-                    </MetaData>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="AD107F76-1964-416F-8DD0-01B59C5A3060"/>
-                    </Bookmarks>
-                </BinderItem>
-                <BinderItem UUID="AB38A251-9958-45A2-B509-DAA93E53FE2C" Type="Other" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                    <Title>apa</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>csl</FileExtension>
-                    </MetaData>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="AD107F76-1964-416F-8DD0-01B59C5A3060"/>
-                    </Bookmarks>
                 </BinderItem>
             </Children>
         </BinderItem>
@@ -874,6 +379,15 @@
                         <TextSelection>23,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem UUID="D2E3B6D5-155D-4CB3-9501-8EDDC01016C3" Type="Text" Created="2026-09-10 14:48:35 -0300" Modified="2026-09-10 14:48:39 -0300">
+                    <Title>ADR</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
         <BinderItem UUID="D04A29F1-8103-4E3F-9781-698D9B1F60B2" Type="TrashFolder" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
@@ -881,6 +395,25 @@
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
+            <Children>
+                <BinderItem UUID="C270D3BA-1995-482D-AF9E-F5992A5AF56E" Type="Text" Created="2026-09-10 10:21:27 -0300" Modified="2026-09-10 10:21:45 -0300">
+                    <Title>schedule</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="BA71EB43-B6A9-444A-97CF-041624B52DD1" Type="Text" Created="2026-09-10 14:01:39 -0300" Modified="2026-09-10 14:01:39 -0300">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
     </Binder>
     <Collections>
@@ -979,14 +512,14 @@
     </CustomMetaDataSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-09-10 01:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="18" Characters="-25" Date="2026-09-09 22:15:47 -0300"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-09-11 01:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="158" Characters="1006" Date="2026-09-10 09:25:42 -0300"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2026-09-09 16:59:35 -0300">
-        <DraftWordCount>18</DraftWordCount>
-        <DraftCharCount>-25</DraftCharCount>
-        <OtherWordCount>-71</OtherWordCount>
-        <OtherCharCount>-586</OtherCharCount>
+    <RecentWritingHistory Date="2026-09-10 00:00:00 -0300">
+        <DraftWordCount>158</DraftWordCount>
+        <DraftCharCount>1006</DraftCharCount>
+        <OtherWordCount>84</OtherWordCount>
+        <OtherCharCount>740</OtherCharCount>
     </RecentWritingHistory>
     <TemplateFolderUUID>8B014782-1E52-4F6D-B15C-CA5FB440B23B</TemplateFolderUUID>
     <BackupSettings>

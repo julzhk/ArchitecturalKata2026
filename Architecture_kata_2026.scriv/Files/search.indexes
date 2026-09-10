@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="4999718C-11F3-4D34-ACCA-BB27CFC74482">
+            <Title>Figure + Attributes</Title>
+            <Text>
+#
+{&lt;$Custom:ID&gt; &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption.
+
+
+
+</Text>
+            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
+        </Document>
+        <Document ID="671E32DD-A9C3-4576-A65A-70B920FCDFD9">
+            <Title>Text</Title>
+            <Text>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
+
+Åd nam omnis ullamcørper vituperatoribus. Sed vereartincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
+
+No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex [@siegel2015], ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
+
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See @fig-withattributes for details.  
+</Text>
+        </Document>
+        <Document ID="D3758D51-73E1-41A3-9947-FF13D054291A">
+            <Title>Placeholder</Title>
+        </Document>
+        <Document ID="BE61A69F-1CF4-4F73-B6E1-5AE74806D0BE">
+            <Title>Caution Callout </Title>
+            <Text>This is a caution callout.</Text>
+        </Document>
+        <Document ID="F8BC2FA3-3A32-489C-952D-912909D9543F">
+            <Title>Solar Cycles</Title>
+            <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
+
+</Text>
+        </Document>
+        <Document ID="ABD194A7-0E88-4F19-B4D6-09A367CAEFBC">
+            <Title>Abstract</Title>
+            <Text>This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto’s layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener’s markdown output so that it is compatible with Quarto's cross-referencing filter.  
+</Text>
+        </Document>
+        <Document ID="C960813C-1D04-4F44-BD22-BB0F2DB282E0">
+            <Title>Elephant 1</Title>
+        </Document>
+        <Document ID="A77B00CC-4358-4C89-96ED-7C547883D9C8">
+            <Title>Text</Title>
+            <Text>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
+</Text>
+        </Document>
+        <Document ID="B1C2539F-161E-4BFA-BAB0-F0852C43338A">
+            <Title>Lunar Cycles</Title>
+            <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex (see @fig-elespan). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+
+:::{.column-page}
+#
+{#fig-elespan} This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a .column-page class, for Quarto's layout for extend-to-page-width.
+:::
+
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
+
+![This should also span the whole page, using a paragraph block style [Column Page]. This method has the caveat that we cannot use an editor-embedded image as in @fig-elespan; only an Scrivener Binder document link to the file and direct pandoc markup…](Elephant 1){#fig-elespan2}
+
+Ad pro quod definitiønem [@crivellato2007], mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! 
+
+
+</Text>
+        </Document>
+        <Document ID="C63B82F3-A5A4-434B-B980-B35638063314">
+            <Title>Results</Title>
+        </Document>
+        <Document ID="8B014782-1E52-4F6D-B15C-CA5FB440B23B">
+            <Title>Templates</Title>
+            <Notes>These templates allow you to create new documents.</Notes>
+        </Document>
+        <Document ID="A71775B2-1366-4180-8923-3810E8FC6611">
+            <Title>Elephant 3</Title>
+        </Document>
+        <Document ID="E6204736-36FA-48B6-A26B-865057BCFEB5">
+            <Title>Acknowledgments</Title>
+            <Text>I am grateful for the insightful comments offered by the anonymous peer reviewers at Cephalopoda &amp; Daughters. The generosity and expertise of one and all have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility.</Text>
+        </Document>
+        <Document ID="9E10C7D5-D2D9-48A7-A5F4-5CB69C0ED66F">
+            <Title>Multipart Table</Title>
+            <Text>Table Head 1
+Table Head 2
+Table Head 3
+Item 1
+Item 2
+Item 3
+Item 4
+Item 5
+Item 6
+Item 7
+Item 8
+Item 9
+Item 10
+Item 11
+Item 12
+: First Table Caption {#tbl-first}
+
+Table Head 1
+Table Head 2
+Table Head 3
+Item 1
+Item 2
+Item 3
+Item 4
+Item 5
+Item 6
+Item 7
+Item 8
+Item 9
+Item 10
+Item 11
+Item 12
+: Second Table Caption {#tbl-second}
+
+Main caption. This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multiformat Table] Edit the Inspector’s Custom Metadata [ID, Class &amp; Attributes] which holds the cross-referencing label and the attributes for this multipart table, which will be added by the Section Layout by the compiler.
+</Text>
+        </Document>
+        <Document ID="E6AB68C4-7984-42B9-B7B5-E97DFF5D254F">
+            <Title>Tip Callout</Title>
+            <Text>This is a tip callout.</Text>
+        </Document>
+        <Document ID="96690C34-1F3E-4364-9883-79E52C6E4086">
+            <Title>Multipart Figure</Title>
+            <Text>
+#
+{#fig-labelA} Caption.
+
+#
+{#fig-labelB} Caption.
+
+Main caption; use the Inspector’s Custom Metadata → ID, Class &amp; Attributes to edit the document-specific attributes including the cross-reference label. Default values are #fig-multipart .column-page layout-ncol=2 layout-valign="bottom" — see https://quarto.org/docs/authoring/figures.html#multiformat-figures for details…
+
+</Text>
+            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
+        </Document>
+        <Document ID="3EA388E0-C7E3-45D2-8D8E-C8DD7AE862F6">
+            <Title>Data Recording</Title>
+            <Text>
+![A figure of a poor, poor marginalised elephant…](Elephant 3){#fig-marginalia}
+
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, and here is some inline maths: e^{ix}=r(\cos \theta +i\sin \theta), est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+
+Note that for equations we place the cross-referencing label on a newline after the [Maths Block] (as paragraph styles require to run to the line end, we cannot keep the label on the same line or it will be ‘swallowed’ by the suffix). The post-processing script will place this label back on the same line after the $$ has been added by Scrivener’s compiler so that Quarto can properly cross-reference it…  
+
+See both @eq-one and @eq-two for more details:
+
+t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
+{#eq-one}
+
+Sint meis quo et, vis ad fæcete dolorem!   
+
+\nabla \times \mathbf {H} ={\frac {1}{c}}\left(4\pi \mathbf {J} _{\text{f}}+{\frac {\partial \mathbf {D} }{\partial t}}\right)
+{#eq-two}
+
+Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.See @fig-marginalia for a poor marginalised elephant. Ad quøt moderatius elaboraret eum [@siegel2015], pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm?
+
+# This is a styled Ruby code block, 
+# using the paragraph style [Ruby Code]
+
+# Output "I love Ruby"
+say = "I love Ruby"
+puts say
+
+# Output "I *LOVE* RUBY"
+say['love'] = "*love*"
+puts say.upcase
+
+# Output "I *love* Ruby"
+# five times
+5.times { puts say }
+
+Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex [@siegel2015], est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
+</Text>
+            <Comments>Another footnote. Although footnotes get converted just fine, one caveat is you cannot use Scrivener inline styles, so you **must** use Pandoc markup *directly*.</Comments>
+        </Document>
+        <Document ID="C3B826DA-2B69-433E-AE8F-96FD8BC82EBB">
+            <Title>Elephant 2</Title>
+        </Document>
+        <Document ID="1ACCA6A1-1239-443E-B1CC-D3CC9058013A">
+            <Title>Note Callout</Title>
+            <Text>This is a note callout.</Text>
+        </Document>
+        <Document ID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754">
+            <Title>Compiler script details</Title>
+            <Text>There is a small ruby script that deals with the reformatting from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format:
+
+#
+
+The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…</Text>
+        </Document>
+        <Document ID="DAE0B6CC-07A9-46F2-ACED-44F8DD10D299">
+            <Title>Bibliography</Title>
+            <Text>
+</Text>
+        </Document>
+        <Document ID="AD107F76-1964-416F-8DD0-01B59C5A3060">
+            <Title>About this Template</Title>
+            <Text>TEMPLATE VERSION: V1.0.5
+This project template shows how to combine Scrivener and the scientific and technical publishing system, Quarto. Quarto is basically an opinionated wrapper around Pandoc, including templates for multiple outputs alongside numerous filters and extensions. 
+
+NOTE: there is a small Scrivener bug (fixed in V3.3.1 on macOS however) that causes the main compile metadata to reset. For older Scrivener, you must remove title and author metadata from the compiler metadata panel for this project to compile properly. In addition, for the sample content, if you don't have R installed, you must remove the [Stimulus Plotting] section from the compile list as they use R. R can easily be installed via homebrew: 
+
+    brew install homebrew/cask/r
+    brew install xquartz
+
+Then run R from the terminal and install the tidyverse and kableExtra packages, this should cover the dependencies:
+
+    install.packages("tidyverse")
+    install.packages("kableExtra")
+
+Finally, you must edit the Metadata paths and fonts to those available on your system for the compile to succeed. The script replaces ${USERHOME} with your home folder path, but it is up to you to set up the rest of the path. I use my pandoc folder to store my bibliography, cal and templates files, so for example my CSL file is stored at ${USERHOME}/.local/share/pandoc/csl/apa.csl
+
+For the bibliography you need to replace the in-text citations like [@siegel2015] with your own, or export my Core.json to a location specified by the Metadata bibliography key. The CSL file is also available and you can export it from apa.csl and point to it using the csl metadata key. 
+
+If you want to use the same fonts I specify, you can install them from homebrew in the terminal (https://brew.sh):
+
+    brew tap homebrew/cask-fonts
+    brew install font-alegreya font-alegreya-sans
+
+As I already demonstrate how to use Scrivener with pandoc, it was trivial to add a new workflow for supporting the use of Scrivener with the new technical and scientific publishing system, Quarto. Quarto bundles Pandoc along with a set of extensions and templates to provide an all-in-one experience, including Tufte-like output, extensive cross-referencing of equations tables figures &amp; code, and running code (R, Python, Julia, Dot, Mermaid etc.) to generate figures and complex layouts.
+
+Because Scrivener supports Pandoc-flavoured markdown and automated post-processing, it also supports Quarto. However, for cross-referencing it places the labels at the end of the line, which conflicts with Scrivener’s block style injection of markup. A small mod of an existing pandoc-crossref post-processing script solved this problem. The script run from the post-processing pane of the Scrivener compiler runs quarto automatically after tweaking the path and fixing the cross-references.
+
+Most features of Quarto can be enabled via three routes:
+
+	1	Enabled using Scrivener styles — example: Callouts, Live Code. The only caveat is Scrivener doesn’t allow paragraph [block] styles to be nested.
+	2	Enabled using Scrivener Section Layouts — example: Multipanel images / tables using cross-referencing attributes. This method enables nested blocks.
+	3	You can always write plain markdown in the editor if you prefer…
+
+Quarto’s documentation is excellent. Some of the cool features that Quarto includes:
+
+	1	Panels with sub-figures and sub-tables.
+	2	Based on Tufte, you can use margins for notes, figures, equations etc. Layout can be modified to span the page in many ways.
+	3	Comprehensive cross-referencing, using Pandoc’s @citation markup (based on pandoc-crossref). For sub-figures / tables, it will add labels, like Figure 3(c) and these can be customised in th metadata.
+	4	Academic author + affiliation metadata «similar to scrivomatic and pandoc scholar».
+	5	Run Python, R, Julia code “live” to plot figures on each compile.
+	6	Use graphing engines like Mermaid and Graphviz.
+	7	HTML output has lots of cool tweaks, see https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html for example.
+	8	Quarto allows installable extensions, so you can plug in new layout templates and code to extend its powers!
+
+
+Quarto install almost everything required (you can use it to manage Pandoc, LaTeX, Graphviz, Mermaid and other tools all-in-one). For LaTeX it can install and update TinyTeX, allowing a small install footprint and automated addition of packages from CTAN. If you want to use R then you must install it yourself.
+</Text>
+        </Document>
+        <Document ID="538C111A-6FE6-4B35-9B93-14232AF1572B">
+            <Title>Graphviz Figure</Title>
+            <Text>//| label: fig-statemachine
+//| fig-cap: A Graphviz-generated state machine diagram, output using a [Diagram Dot] Section Type. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…
+
+digraph finite_state_machine {
+	Fontname="Avenir,Helvetica,sans-serif"
+	node [fontname="Avenir,Helvetica,sans-serif"]
+	edge [fontname="Avenir,Helvetica,sans-serif"]
+	rankdir=LR;
+	node [shape = doublecircle]; 0 3 4 8;
+	node [shape = circle];
+	0 -&gt; 2 [label = "SS(B)"];
+	0 -&gt; 1 [label = "SS(S)"];
+	1 -&gt; 3 [label = "S($end)"];
+	2 -&gt; 6 [label = "SS(b)"];
+	2 -&gt; 5 [label = "SS(a)"];
+	2 -&gt; 4 [label = "S(A)"];
+	5 -&gt; 7 [label = "S(b)"];
+	5 -&gt; 5 [label = "S(a)"];
+	6 -&gt; 6 [label = "S(b)"];
+	6 -&gt; 5 [label = "S(a)"];
+	7 -&gt; 8 [label = "S(b)"];
+	7 -&gt; 5 [label = "S(a)"];
+	8 -&gt; 6 [label = "S(b)"];
+	8 -&gt; 5 [label = "S(a)"];
+}
+</Text>
+        </Document>
+        <Document ID="1AB3BC7E-221E-4E72-88CA-F8376C04E680">
+            <Title>Column Page←Left</Title>
+            <Text>This uses a Section Type [Layout Column Page←Left]. The contents will be assigned the .column-page-left class and stretched leftwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
+</Text>
+        </Document>
+        <Document ID="1E8405F4-2C3C-4EEA-AE91-A30A669CBA56">
+            <Title>Mermaid Graph</Title>
+            <Text>%%|label: fig-label
+%%|fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid], see https://quarto.org/docs/authoring/diagrams.html for more details
+%%| fig-width: 5
+%%{init: {
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+
+</Text>
+        </Document>
+        <Document ID="EA34AC25-416C-4018-8F59-1204A188736B">
+            <Title>R Code</Title>
+            <Text>#| label: fig-label
+#| fig-cap: Place your figure caption here.
+
+# Place your R code here, see https://quarto.org/docs/computations/r.html
+
+
+</Text>
+            <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
+        </Document>
+        <Document ID="0FEBFFB9-BE9B-405B-A67E-41D0B40C345A">
+            <Title>Multipart Table</Title>
+            <Text>Column 1
+Column 2
+Column 3
+A
+B
+C
+D
+E
+F
+G
+H
+I
+: First Table {#tbl-first2}
+
+Column 1
+Column 2
+Column 3
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+: Second Table {#tbl-second2}
+
+This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multipart Table]. Note that Custom Metadata holds the cross-referencing label, layout class and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: &lt;​$​​custom:ID&gt; &lt;​$​​custom:Class&gt; &lt;​$​​custom:Attributes&gt; 
+</Text>
+        </Document>
+        <Document ID="F1AA3BE0-F47B-44A4-9681-B165BEDB56C7">
+            <Text>Ad pro quod definitiønem, mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
+
+No meæ menandri mediøcritatem [@siegel2015; @barrett2015; @crivellato2007], meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
+</Text>
+        </Document>
+        <Document ID="0928180C-5325-4A71-AE4E-3D928D8FC0C0">
+            <Title>Warning Callout</Title>
+            <Text>This is a warning callout.</Text>
+        </Document>
+        <Document ID="A14DF5BB-79FC-44CE-8E56-85EB37D97781">
+            <Title>Stimulus Plotting</Title>
+            <Text>Note if you have R and Python installed, you can run code like so...
+
+Here is an R plot (@fig-airquality), you need to have R installed for this to work and also the tidy verse packages, if not simply remove this document from the compile:  
+
+#| label: fig-airquality
+#| fig-cap: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level.
+#| column: page
+#| warning: false
+
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+
+</Text>
+        </Document>
+        <Document ID="C7DE6C79-67F9-4873-BD08-376A867C1B6E">
+            <Title>Methods</Title>
+        </Document>
+        <Document ID="3B1A06ED-3252-475A-9C22-DD92A4707DB1">
+            <Title>cover</Title>
+        </Document>
+        <Document ID="2A3CE4F8-B8AE-4E24-94A0-DA38CBE20492">
+            <Title>Multipart Figure</Title>
+            <Text>
+#
+{#fig-castle2} Elephant.
+
+#
+{#fig-trunk2} Angry elephant with big trunk.
+
+This demonstrates generating a multi-panel figure using a Scrivener Section Type [Multipart Figure] instead of using raw markdown as shown here. ID, Class and Attributes specific to the block [#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and this is then inserted into the markup for this chunk by the Section Layout at compile time.  
+
+</Text>
+        </Document>
+        <Document ID="CDBF9C45-8619-4A78-B90A-47CE76E844D3">
+            <Title>R Code</Title>
+            <Text>#| label: tbl-tableKable
+#| tbl-cap: This table uses Section Type [Code R] to insert the correct markup at compile, this is an alterative to using the [R Block] paragraph style. This shows a table generated by the R package kableExtra. Currently this works for HTML and LaTeX.
+#| echo: false
+
+# install.packages("kableExtra") # you need to install this in R
+library(kableExtra)
+dt &lt;- mtcars[1:5, 1:6]
+kbl(dt) %&gt;%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+</Text>
+        </Document>
+        <Document ID="57175DA2-BFF9-4381-9358-0C5843427049">
+            <Title>Text</Title>
+            <Text>Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
+
+</Text>
+        </Document>
+        <Document ID="AB20E377-AA9F-46EB-9D42-CFDA75D5D58C">
+            <Text>Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset! We can reference sub-tables, for example see @tbl-second.
+
+::: {#tbl-panel layout-ncol=2}
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: First Table {#tbl-first}
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: Second Table {#tbl-second}
+
+This is a markdown table panel with two sub-tables; just using plain markdown in the editor (no Scrivener Styles or Section Types).
+:::
+
+No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
+
+Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  Please refer to @tbl-panel2, including @tbl-first2 and @tbl-second2 for more details.
+</Text>
+        </Document>
+        <Document ID="3CDA6495-B6EE-4128-9310-2608589863D8">
+            <Title>Important Callout</Title>
+            <Text>This is an important callout.</Text>
+        </Document>
+        <Document ID="0CD37C9C-B62F-44D6-9290-BE255E64CBCC">
+            <Text>#
+««AB»» This should span the page to the right in HTML. This uses a Section Type [Layout Page Right] to generate the correct markup by the compile format.
+</Text>
+        </Document>
+        <Document ID="0771D8C0-9C32-44E0-B995-153D7A26675E">
+            <Title>Figure + Attributes</Title>
+            <Text>#
+««AB»» This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details…
+
+
+
+</Text>
+            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
+        </Document>
+        <Document ID="A6D02C06-BC06-40BB-9B28-D402C89F3D84">
+            <Title>Caution Callout </Title>
+            <Text>This is a callout, but generated using a Section Type [Callout Caution] rather than a paragraph style. Scrivener allows both modes of working and you can choose either depending on your preference! Don’t forget to utilise Scrivenings mode if you use lots of Section Types so you can edit as a ‘single’ document…</Text>
+        </Document>
+        <Document ID="AB38A251-9958-45A2-B509-DAA93E53FE2C">
+            <Title>apa</Title>
+            <Synopsis>Select this file and export it, it should be named something like apa.csl</Synopsis>
+        </Document>
+        <Document ID="B3017584-77DF-4751-89E1-EA62098C1BDB">
+            <Title>Discussion</Title>
+            <Text>Lørem ipsum dolør sit amet [@siegel2015], eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@siegel2015]. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te?  
+
+#
+{#fig-alignright fig-align="right"} This should be right-aligned if there is space…
+
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad [@siegel2015], ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
+</Text>
+            <Comments>A final footnote.</Comments>
+        </Document>
+        <Document ID="58DD51C0-A10D-42D4-A7CD-5633135703FF">
+            <Title>Graphviz Graph</Title>
+            <Text>//| label: fig-label
+//| fig-cap: Figure caption, see https://quarto.org/docs/authoring/diagrams.html for more details
+//| fig-width: 5
+
+
+</Text>
+        </Document>
+        <Document ID="11709F70-97CB-4CF6-B600-51EE0E1FCD5E">
+            <Title>Mermaid Figure</Title>
+            <Text>%%|label: fig-mermaid
+%%|fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid]; The plot represents some sort of graph…
+%%{init: {
+  "theme": "forest",
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</Text>
+        </Document>
+        <Document ID="970591F7-5187-42B5-ABD1-3395110CE19E">
+            <Title>Statistical Analysis</Title>
+            <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+
+//| label: fig-graphviz
+//| fig-cap: A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…
+
+graph G {
+  layout=neato
+  run -- intr;
+  intr -- runbl;
+  runbl -- run;
+  run -- kernel;
+  kernel -- zombie;
+  kernel -- sleep;
+  kernel -- runmem;
+  sleep -- swap;
+  swap -- runswap;
+  runswap -- new;
+  runswap -- runmem;
+  new -- runmem;
+  sleep -- runmem;
+}
+
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See @fig-statemachine and @fig-mermaid for details.
+</Text>
+        </Document>
+        <Document ID="E4F662EA-5904-465F-A709-E9F001D66A52">
+            <Title>Column Page→Right</Title>
+            <Text>This uses a Section Type [Layout Column Page→Right]. The contents will be assigned the .column-page-right class and stretched rightwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
+</Text>
+        </Document>
+        <Document ID="BC65073D-ED94-401E-A1AB-1A62306E4ACA">
+            <Title>Experimental Perturbations</Title>
+            <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+
+Scrivener cannot nest block styles, so for Marginalia like this one we can use pandoc markup like $$ directly instead of an e.g. maths block paragraph style. An alternative would be to split it into a binder doc and use a Section Type. We know from the first fundamental theorem of calculus that for x in [a, b]:
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
+
+This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See @fig-elephants2 below for an example using a Section Type to insert the same markup at compile-time.
+
+::: {#fig-elephants .column-body layout-ncol=2 layout-valign=“top”}
+
+#
+{#fig-castle} Elephant castle.
+
+#
+{#fig-trunk} Angry elephant with big trunk.
+
+Quarto allows the creation of figure panels with sub-figures. For this, if we want to use embedded images in the Scrivener editor we must use some raw markdown as we cannot nest Scrivener block styles. Note we can use the Scale Image... Tool in Scrivener and these sizes get exported to Quarto and the output. Here we scale both images to the same height.
+:::
+
+See @fig-elephants, particularly @fig-castle. Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
+
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+
+No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex [@siegel2015], ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
+
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+
+Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
+
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+</Text>
+        </Document>
+        <Document ID="E8956215-97C1-41DA-8AB9-50C2891EA656">
+            <Title>How to write?</Title>
+            <Text>Introduction
+
+Writing involves using the Scrivener Binder to determine document structure. You can use this Project as a template, delete all the sub-documents in Manuscript and start creating your own, using the Binder hierarchy to define your core structure. Add pictures and research etc. to Research. You can edit the project Metadata to modify the Quarto &amp; Pandoc options. You can use Scrivener Styles and Section Layouts to structure the semantic bits that will generate markup added at compile time. You can use Scrivener’s other native tools (lists, tables, links), and [mostly] should not need to add any markdown in the editor itself. Most Quarto features work without any modification.
+
+Writing Using Styles
+
+For Scrivener Styles, apply the Paragraph or Character style for each feature:
+#
+For Scrivener Styles, here are some example Quarto features. As is general practive for most markdown flavours, use empty lines around PAragraph Styles, for example callouts:
+
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+
+The Scrivener Styles are converted into the correctly styled div by the compiler. Here is an example marginalia block:
+
+This will appear in the margin.
+
+Diagram blocks for Mermaid and GraphViz are included, e.g. GraphViz (aka dot):
+
+digraph D {
+
+  A -&gt; {B, C, D} -&gt; {F}
+
+}
+
+Remember the way these Styles look in the editor is not translated to the markdown, they are used for semantic identification only. This means you can style in-editor text any way you want (fonts, colours etc).
+Writing Using Section Layouts
+
+If you want to use Section Types, use the document templates in the Project &gt; New from Template menu to create a new document of that type:
+
+#
+
+For an existing document, apply the Section Type using the Inspector Metadata Section Type menu. In cases where there are Paragraph Styles, Section Types enable you to wrap these blocks together (i.e. you can use a Maths Block Style inside a Marginalia Section Type). Another benefit of Section Types are the ability to inject custom attributes using metadata. See the Inspector’s Custom Metadata→ ID, Class &amp; Attributes in the multi-part image template below for an example.
+
+#
+
+Here you can see we add a cross-referencing label ID #fig-multipart, a layout class .column-page and layout attributes layout-ncol=2 layout-valign="bottom". These will be added to the markup that the compiler will add to the prefix of this section.
+
+                                                                                                    
+
+Cross Referencing Details:
+
+To support Quarto’s cross-referencing system (using {#item-...} labels at the end of the line), Scrivener’s pandoc-flavoured markdown output needs to be modified before Quarto can run. So, when writing in Scrivener we add the cross-referencing labels at the start of the caption; lets say we have an embedded image block:
+#
+{#fig-one} Here is a caption
+
+As Quarto expects {#labels} at the end of the image markup, the post-processing script will move {#fig-one} from the caption down to the reference link that identifies the image (Scrivener uses ![Caption][link] when converting editor images to markdown). 
+
+For equations we should write the {#label} on the first line after the [Maths Block] style:
+
+\nabla \times \mathbf {E} =-{\frac {\partial \mathbf {B} }{\partial t}}
+{#eq-maxwell}
+
+The script edits the compiled markdown so the {#eq-label} is placed on the same line after the $$ have been added by the compiler.
+</Text>
+        </Document>
+        <Document ID="E297D0E9-3F3B-44BE-8BA6-B976FAB8DBE0">
+            <Title>Python Code</Title>
+            <Text>#| label: fig-label
+#| fig-cap: Place your figure caption here.
+
+# Place your Python code here, see https://quarto.org/docs/computations/python.html 
+
+
+</Text>
+            <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
+        </Document>
+        <Document ID="28E4AEF0-E993-4AED-B36C-D45EE66FCBCE">
+            <Title>Marginalia</Title>
+            <Text>This Marginalia is using a Section Type [Layout Column Margin]. The contents will be assigned the .column-margin class and placed in the margin in HTML and LaTeX outputs. See https://quarto.org/docs/authoring/article-layout.html for details...  
+
+</Text>
+        </Document>
+        <Document ID="724E8835-2F2A-4288-8957-EEFB1D92413A">
+            <Title>Column Page</Title>
+            <Text>This uses a Section Type [Layout Column Page]. The contents will be assigned the .column-page class and stretched across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
+</Text>
+        </Document>
+        <Document ID="6777C5FF-BCD4-43E1-9A65-8AB83586DDD7">
+            <Title>Conflicts of Interest</Title>
+            <Text>The authors do love octopods, but this in no way biases their work.</Text>
+        </Document>
+        <Document ID="874FC928-F6CD-4B4B-A8C9-5400A210E27C">
+            <Title>Introduction</Title>
+            <Text>“We don’t see things as they are, we see them as we are.” — Anaïs Nin
+
+Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see Results) , est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+
+#
+{#fig-elephant .column-body} We add the cross-referencing label to the start of the caption. This label will get moved to the correct place in the markdown by the post-processing script before Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style Caption which the Scrivener compiler converts to the correct markdown to generate a captioned image block!
+
+Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum[@crivellato2007], pro paulo ridens quaestio ut (see @fig-elephant)! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam (this style is strong emphasis).  
+
+Ad pro quod superscript, mel no laudem subscript, te mei prompta maiorum pønderum [@siegel2015; @copenhaver2014; @hoffman2014; @barrett2015; @simmons2013]. Solum aeque singulis duo ex, est an iriure øblique.  
+
+Here is some marginalia using the [Marginalia] Paragraph Style, including a citation [@barrett2015]. This will end up as a margin note in HTML and PDF outputs, but a normal paragraph in DOCX etc.
+
+Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo [@barrett2015; @crivellato2007]! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
+
+This callout is generated using the [Callout Tip] Scrivener Paragraph Style…
+
+This is a standard native Scrivener list, which will get converted to markdown by the Scrivener compiler: 
+
+	•	Item 1
+	•	Item 2
+	⁃	Item 2a
+	⁃	Item 2b
+	•	Item 3
+
+No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  See @tbl-test for more details.   
+
+Table Head 1
+Table Head 2
+Table Head 3
+Item 1
+Item 2
+Item 3
+Item 4
+Item 5
+Item 6
+Item 7
+Item 8
+Item 9
+Item 10
+Item 11
+Item 12
+: This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables.  {#tbl-test}
+
+Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
+</Text>
+            <Comments>This is a footnote, **with** a citation [@crivellato2007].
+Jane Doe 16/04/2019, 14:50 - this is a comment.</Comments>
+        </Document>
+        <Document ID="E5DA4A67-63A9-4CB1-8886-CE7761A62A5B">
+            <Title>Marginalia</Title>
+            <Text>This Marginalia is using a Section Type [Layout Margin]. We can therefore use paragraph styles here, like [Maths Block]. We know from the first fundamental theorem of calculus that for x in [a, b]
+\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).
+{#eq-marginalia}
+
+</Text>
+        </Document>
+        <Document ID="BC3362E8-2128-48EF-AF04-9717113AEA55">
+            <Title>Core</Title>
+            <Synopsis>The bibliography database as a CSL JSON file. Export it and place it where your metadata points.</Synopsis>
+        </Document>
+        <Document ID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55">
+            <Title>Metadata</Title>
+            <Synopsis>This is the Pandoc metadata and also contains the pandocomatic key to specify which templates to use</Synopsis>
+            <Text># Quarto YAML metadata
+# IMPORTANT: YAML config files use SPACES for indentation to 
+# define structure. Remember: STRAIGHTEN all smart quotes and don't
+# capitalise metadata keys, they MUST BE lowercase! 
+# Tip: use "Show Invisibles" in Scrivener to see whitespaces.
+# 
+# Metadata is used to define the options that Quarto/Pandoc
+# use when generating the final document. You will need to change
+# the location of your bibliography files and change any fonts
+# to those present on your system.
+#
+title: "&lt;$projecttitle&gt;"
+subtitle: "A Compiler Workflow…"
+author: 
+  - name: Jane Doe
+    email: jane@doe.org
+    corresponding: true
+    affiliations:
+      - International Cephalopod Research Institute (ICRI), Pacific Ocean.
+      - Center for Advanced Octopod Studies (CAOS), Atlantic Ocean.
+  - name: John Doe
+    email: john@doe.com
+    affiliations:
+      - Center for Advanced Octopod Studies (CAOS), Atlantic Ocean.
+keywords: [pandoc, quarto, scrivener]
+subject: workflow
+lang: en
+date: &lt;$date:YYYY-MM-dd&gt;      # Scrivener placeholder
+verbose: true                 # pandoc verbosity
+toc: true                     # table of contents
+number-sections: true         # numbered headings
+crossref:                     # cross-referencing options
+  labels: arabic                # (default is arabic)
+  subref-labels: alpha A        # (default is alpha a)
+  chapters: true                # Numbers depend on the chapter, e.g. 2.1
+cap-location: bottom          # where put figure &amp; table captions
+link-citations: true          # in-document links to refs
+bibliography: ${USERHOME}/.local/share/pandoc/Core.json
+csl: ${USERHOME}/.local/share/pandoc/csl/apa.csl
+appendix-style: default       # see https://quarto.org/docs/authoring/appendices.html#appendix-style
+dpi: 300
+format:
+  html:
+    theme: journal
+    title-block-banner: "#BB3333"
+    embed-resources: false
+    html-math-method: mathjax
+    section-divs: true
+    linestretch: 1.5
+    fig-format: svg
+    mainfont: Alegreya       
+    monofont: Rec Mono Duotone #
+    # Inject some style tweaks into the header
+    header-includes: |
+      &lt;style&gt;
+        p {text-align: justify;}
+        tr.odd {background-color: #F1F1F1;}
+        caption, figcaption, .column-margin p {font-family: Alegreya Sans, sans-serif !important; text-align: left !important;}
+      &lt;/style&gt;
+  pdf:
+    documentclass: scrbook    # scrbook, scrreport, scrartcl
+    classoption: 
+      - oneside                # oneside or twoside
+    papersize: a4
+    geometry:
+      #- showframe             # check the layout
+      - top=2cm
+      - bottom=2cm
+      - head=1cm
+      - foot=1cm
+      - left=2cm
+      - marginparwidth=4cm
+      - textwidth=12cm
+      - marginparsep=1cm
+      - bindingoffset=0.5cm
+    fontsize: 12pt
+    linestretch: 1.5
+    latex-clean: true
+    keep-tex: true
+    mainfont: Georgia         
+    sansfont: Helvetica Neue   
+    monofont: Menlo
+    mathfont:  STIX Two Math  
+    linkcolor: Mahogany
+    citecolor: Bittersweet
+    urlcolor: BrickRed
+    #header-includes: |
+      #\KOMAoptions{DIV=last}  # force koma layout rather than geometry
+  epub:
+    html-math-method: katex
+    identifier: 45DRE66-YTX
+    epub-cover-image: ${USERHOME}/.local/share/pandoc/templates/cover.jpg
+    fig-format: png
+  docx:
+    prefer-html: true          # stops non-HTML format errors 
+    reference-doc: ${USERHOME}/.local/share/pandoc/templates/custom.docx # change to your own docx template 
+</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

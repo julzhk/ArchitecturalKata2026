@@ -1,0 +1,200 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AvenirNext-Italic;\f2\fnil\fcharset0 AvenirNext-BoldItalic;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fnil\fcharset0 Menlo-Italic;\f5\fnil\fcharset0 Menlo-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red78\green78\blue78;}
+{\*\expandedcolortbl;;\csgray\c38000;}
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl360\slmult1\partightenfactor0
+
+\f0\fs24 \cf2 <$Scr_Cs::1><$Scr_Ps::0>
+\f1\i\fs20 # Quarto YAML metadata\
+# IMPORTANT: YAML config files use 
+\f2\b SPACES
+\f1\b0  for indentation to \
+# define structure. Remember: 
+\f2\b STRAIGHTEN all smart quotes
+\f1\b0  and don't\
+# capitalise metadata keys, they 
+\f2\b MUST BE lowercase
+\f1\b0 ! \
+# Tip: use "Show Invisibles" in Scrivener to see whitespaces.\
+# \
+# Metadata is used to define the options that Quarto/Pandoc\
+# use when generating the final document. You will need to change\
+# the location of your bibliography files and change any fonts\
+# to those present on your system.\
+#\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl360\slmult1\partightenfactor0
+
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 title: \'93Architectural Kata 2026\'94\
+subtitle: "A stab at architectural thinking in the age of AI "\
+author: \
+  - name: Julian Harley \
+    email: julian@example.com\
+    corresponding: true\
+keywords: [architecture, kata, AI]\
+subject: Architectural report\
+lang: en\
+date: <$date:YYYY-MM-dd>      
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # Scrivener placeholder
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+verbose: true                 
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # pandoc verbosity
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+toc: true                     
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # table of contents
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+number-sections: true         
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # numbered headings
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+crossref:                     
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # cross-referencing options
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+  labels: arabic              
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20   # (default is arabic)
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+  subref-labels: alpha A      
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20   # (default is alpha a)
+\f0\i0\fs24 <!$Scr_Cs::1>
+\f4\i \
+  
+\f3\i0 \cf0 chapters: true              
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20   # Numbers depend on the chapter, e.g. 2.1
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+cap-location: bottom          
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # where put figure & table captions
+\f0\i0\fs24 <!$Scr_Cs::1>
+\f3 \
+\cf0 link-citations: true          
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # in-document links to refs
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+bibliography: $\{USERHOME\}/.local/share/pandoc/Core.json\
+csl: $\{USERHOME\}/.local/share/pandoc/csl/apa.csl\
+appendix-style: default       
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # see https://quarto.org/docs/authoring/appendices.html#appendix-style
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+dpi: 300\
+format:\
+  
+\f5\b html
+\f3\b0 :\
+    theme: journal\
+    title-block-banner: "#BB3333"\
+    embed-resources: false\
+    html-math-method: mathjax\
+    section-divs: true\
+    linestretch: 1.5\
+    fig-format: svg\
+    mainfont: Alegreya       \
+    monofont: Rec Mono Duotone 
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 #
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+    
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # Inject some style tweaks into the header
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+    header-includes: |\
+      <style>\
+        p \{text-align: justify;\}\
+        tr.odd \{background-color: #F1F1F1;\}\
+        caption, figcaption, .column-margin p \{font-family: Alegreya Sans, sans-serif !important; text-align: left !important;\}\
+      </style>\
+  
+\f5\b pdf
+\f3\b0 :\
+    documentclass: scrbook    
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # scrbook, scrreport, scrartcl
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+    classoption: \
+      - oneside                
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # oneside or twoside
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+    papersize: a4\
+    geometry:\
+      #- showframe             
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # check the layout
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+      - top=2cm\
+      - bottom=2cm\
+      - head=1cm\
+      - foot=1cm\
+      - left=2cm\
+      - marginparwidth=4cm\
+      - textwidth=12cm\
+      - marginparsep=1cm\
+      - bindingoffset=0.5cm\
+    fontsize: 12pt\
+    linestretch: 1.5\
+    latex-clean: true\
+    keep-tex: true\
+    mainfont: Georgia         \
+    sansfont: Helvetica Neue   \
+    monofont: Menlo\
+    mathfont:  STIX Two Math  \
+    linkcolor: Mahogany\
+    citecolor: Bittersweet\
+    urlcolor: BrickRed\
+    #header-includes: |\
+      #\\KOMAoptions\{DIV=last\}  
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # force koma layout rather than geometry
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl312\slmult1\partightenfactor0
+\cf0   
+\f5\b epub
+\f3\b0 :\
+    html-math-method: katex\
+    identifier: 45DRE66-YTX\
+    epub-cover-image: $\{USERHOME\}/.local/share/pandoc/templates/cover.jpg\
+    fig-format: png\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl360\slmult1\partightenfactor0
+\cf0   
+\f5\b docx
+\f3\b0 :\
+    prefer-html: true          
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # stops non-HTML format errors
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3  \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl312\slmult1\partightenfactor0
+\cf0     reference-doc: $\{USERHOME\}/.local/share/pandoc/templates/custom.docx 
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 # change to your own docx template
+\f0\i0\fs24 \cf0 <!$Scr_Cs::1>
+\f3  
+\f0 \cf2 <$Scr_Cs::1>
+\f1\i\fs20 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl312\slmult1\partightenfactor0
+
+\f0\i0\fs24 \cf2 <!$Scr_Ps::0><!$Scr_Cs::1>}
