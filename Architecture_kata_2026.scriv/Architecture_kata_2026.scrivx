@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="DC0850C4-534D-4312-AE8F-F2A272A775CF" Version="2.0" Creator="SCRMAC-3.5.1-17446" Device="titan" Author="" Modified="2026-09-10 14:48:41 -0300" ModID="79561D97-36C4-45D7-9B24-034E17D8B7B4">
+<ScrivenerProject Identifier="DC0850C4-534D-4312-AE8F-F2A272A775CF" Version="2.0" Creator="SCRMAC-3.5.1-17446" Device="titan" Author="" Modified="2026-09-10 21:13:28 -0300" ModID="53D7EEF3-B975-42E0-BB76-564247EC9FE7">
     <Binder>
-        <BinderItem UUID="AD107F76-1964-416F-8DD0-01B59C5A3060" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-            <Title>About this Template</Title>
-            <MetaData>
-                <IncludeInCompile>Yes</IncludeInCompile>
-                <IconFileName>Information</IconFileName>
-            </MetaData>
-            <TextSettings>
-                <TextSelection>282,0</TextSelection>
-            </TextSettings>
-        </BinderItem>
-        <BinderItem UUID="E8956215-97C1-41DA-8AB9-50C2891EA656" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-            <Title>How to write?</Title>
-            <MetaData>
-                <IncludeInCompile>Yes</IncludeInCompile>
-                <IconFileName>Information</IconFileName>
-            </MetaData>
-            <TextSettings>
-                <TextSelection>1784,0</TextSelection>
-            </TextSettings>
-        </BinderItem>
-        <BinderItem UUID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-            <Title>Compiler script details</Title>
-            <MetaData>
-                <IncludeInCompile>Yes</IncludeInCompile>
-                <IconFileName>Information</IconFileName>
-            </MetaData>
-            <TextSettings>
-                <TextSelection>488,0</TextSelection>
-            </TextSettings>
-        </BinderItem>
         <BinderItem UUID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-10 10:18:43 -0300">
             <Title>Metadata</Title>
             <MetaData>
@@ -39,7 +9,7 @@
                 <IconFileName>{🎛}</IconFileName>
             </MetaData>
             <TextSettings>
-                <TextSelection>620,0</TextSelection>
+                <TextSelection>206,0</TextSelection>
             </TextSettings>
             <Bookmarks>
                 <Bookmark BinderUUID="E8956215-97C1-41DA-8AB9-50C2891EA656"/>
@@ -59,7 +29,7 @@
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem UUID="2DFE9CFF-07B9-49E5-A0CA-AF23DBB63535" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-10 14:03:47 -0300">
+                <BinderItem UUID="2DFE9CFF-07B9-49E5-A0CA-AF23DBB63535" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-10 21:10:28 -0300">
                     <Title>Process</Title>
                     <MetaData>
                         <StatusID>4</StatusID>
@@ -69,14 +39,14 @@
                         <TextSelection>434,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="C0115381-CFEA-4D13-BB6A-C990B005A2EC" Type="Text" Created="2026-09-09 22:35:53 -0300" Modified="2026-09-10 11:32:10 -0300">
+                <BinderItem UUID="C0115381-CFEA-4D13-BB6A-C990B005A2EC" Type="Text" Created="2026-09-09 22:35:53 -0300" Modified="2026-09-10 21:01:53 -0300">
                     <Title>Review of the Project Scope</Title>
                     <MetaData>
                         <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>961,0</TextSelection>
+                        <TextSelection>209,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="A109A89F-D1F8-4EE8-8AEB-77AE03705030" Type="Folder" Created="2026-09-10 14:03:58 -0300" Modified="2026-09-10 14:04:02 -0300">
@@ -87,6 +57,17 @@
                     <TextSettings>
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
+                    <Children>
+                        <BinderItem UUID="B843BFA6-105F-49EA-9CFB-9D7CCD0ECDD4" Type="Text" Created="2026-09-10 20:43:20 -0300" Modified="2026-09-10 20:57:09 -0300">
+                            <Title>0: Process and tools</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>3,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
                 </BinderItem>
             </Children>
         </BinderItem>
@@ -102,15 +83,16 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>735,0</TextSelection>
+                        <TextSelection>19,114</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="51EA1C20-B9EB-4D83-92CE-248B436103D6" Type="Text" Created="2026-09-10 14:01:25 -0300" Modified="2026-09-10 14:01:25 -0300">
+                <BinderItem UUID="51EA1C20-B9EB-4D83-92CE-248B436103D6" Type="Text" Created="2026-09-10 14:01:25 -0300" Modified="2026-09-10 20:53:15 -0300">
+                    <Title>Architectural Decision Statement</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>1012,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="CDDF52AE-102B-4FA9-87E7-E1C3F100AF10" Type="WebArchive" Created="2026-09-10 14:02:54 -0300" Modified="2026-09-10 14:03:11 -0300">
@@ -379,13 +361,13 @@
                         <TextSelection>23,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="D2E3B6D5-155D-4CB3-9501-8EDDC01016C3" Type="Text" Created="2026-09-10 14:48:35 -0300" Modified="2026-09-10 14:48:39 -0300">
+                <BinderItem UUID="D2E3B6D5-155D-4CB3-9501-8EDDC01016C3" Type="Text" Created="2026-09-10 14:48:35 -0300" Modified="2026-09-10 20:50:20 -0300">
                     <Title>ADR</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>65,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -411,6 +393,36 @@
                     </MetaData>
                     <TextSettings>
                         <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
+                    <Title>Compiler script details</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Information</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>488,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E8956215-97C1-41DA-8AB9-50C2891EA656" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
+                    <Title>How to write?</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Information</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1784,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="AD107F76-1964-416F-8DD0-01B59C5A3060" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
+                    <Title>About this Template</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Information</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>282,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -513,13 +525,13 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-09-11 01:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="158" Characters="1006" Date="2026-09-10 09:25:42 -0300"/>
+        <PreviousSession Words="210" Characters="1367" Date="2026-09-10 09:25:42 -0300"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2026-09-10 00:00:00 -0300">
-        <DraftWordCount>158</DraftWordCount>
-        <DraftCharCount>1006</DraftCharCount>
-        <OtherWordCount>84</OtherWordCount>
-        <OtherCharCount>740</OtherCharCount>
+        <DraftWordCount>210</DraftWordCount>
+        <DraftCharCount>1367</DraftCharCount>
+        <OtherWordCount>314</OtherWordCount>
+        <OtherCharCount>2323</OtherCharCount>
     </RecentWritingHistory>
     <TemplateFolderUUID>8B014782-1E52-4F6D-B15C-CA5FB440B23B</TemplateFolderUUID>
     <BackupSettings>
