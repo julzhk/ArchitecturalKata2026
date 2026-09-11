@@ -12,76 +12,29 @@
 </Text>
             <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
         </Document>
-        <Document ID="671E32DD-A9C3-4576-A65A-70B920FCDFD9">
-            <Title>Text</Title>
-            <Text>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
-
-Åd nam omnis ullamcørper vituperatoribus. Sed vereartincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
-
-No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex [@siegel2015], ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
-
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See @fig-withattributes for details.  
-</Text>
-        </Document>
-        <Document ID="D3758D51-73E1-41A3-9947-FF13D054291A">
-            <Title>Placeholder</Title>
-        </Document>
         <Document ID="BE61A69F-1CF4-4F73-B6E1-5AE74806D0BE">
             <Title>Caution Callout </Title>
             <Text>This is a caution callout.</Text>
-        </Document>
-        <Document ID="F8BC2FA3-3A32-489C-952D-912909D9543F">
-            <Title>Solar Cycles</Title>
-            <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
-
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
-
-</Text>
-        </Document>
-        <Document ID="ABD194A7-0E88-4F19-B4D6-09A367CAEFBC">
-            <Title>Abstract</Title>
-            <Text>This sample project demonstrates a workflow using the Quarto scientific publishing system run using the Scrivener Compiler. Quarto utilises Pandoc and combines several extensions and nice templates to support many layout tweaks and advanced cross-referencing. Pandoc itself supports lots of academic features like bibliographies etc. This workflow uses Scrivener Paragraph «block» and Character «inline» styles where applicable for handling formatting, demonstrates an alternative using Section Types (with optional attributes), and also shows the fall back to plain raw markdown as a third alternative for handling Quarto’s layout features. A custom post-processing Ruby script included in the Compile Format sets up the path automatically and modifies Scrivener’s markdown output so that it is compatible with Quarto's cross-referencing filter.  
-</Text>
-        </Document>
-        <Document ID="C960813C-1D04-4F44-BD22-BB0F2DB282E0">
-            <Title>Elephant 1</Title>
-        </Document>
-        <Document ID="A77B00CC-4358-4C89-96ED-7C547883D9C8">
-            <Title>Text</Title>
-            <Text>No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
-</Text>
-        </Document>
-        <Document ID="B1C2539F-161E-4BFA-BAB0-F0852C43338A">
-            <Title>Lunar Cycles</Title>
-            <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex (see @fig-elespan). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
-
-:::{.column-page}
-#
-{#fig-elespan} This should span the whole page. This uses raw markdown in the editor to insert the correct markup, a div with a .column-page class, for Quarto's layout for extend-to-page-width.
-:::
-
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
-
-![This should also span the whole page, using a paragraph block style [Column Page]. This method has the caveat that we cannot use an editor-embedded image as in @fig-elespan; only an Scrivener Binder document link to the file and direct pandoc markup…](Elephant 1){#fig-elespan2}
-
-Ad pro quod definitiønem [@crivellato2007], mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! 
-
-
-</Text>
-        </Document>
-        <Document ID="C63B82F3-A5A4-434B-B980-B35638063314">
-            <Title>Results</Title>
         </Document>
         <Document ID="8B014782-1E52-4F6D-B15C-CA5FB440B23B">
             <Title>Templates</Title>
             <Notes>These templates allow you to create new documents.</Notes>
         </Document>
-        <Document ID="A71775B2-1366-4180-8923-3810E8FC6611">
-            <Title>Elephant 3</Title>
-        </Document>
-        <Document ID="E6204736-36FA-48B6-A26B-865057BCFEB5">
-            <Title>Acknowledgments</Title>
-            <Text>I am grateful for the insightful comments offered by the anonymous peer reviewers at Cephalopoda &amp; Daughters. The generosity and expertise of one and all have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility.</Text>
+        <Document ID="2DFE9CFF-07B9-49E5-A0CA-AF23DBB63535">
+            <Title>Process</Title>
+            <Text>This is a KATA. It’s not a real project. 
+Hence, by definition there’ll be (unrealistic) simplifications and a smoothing out of the problem space. The sharp edges of reality are extracted so we can focus on the crux of the topic or the areas we want to practice and improve on. This doesn’t mean it can’t be useful, or interesting!
+
+The topics I personally want to exercise in this Kata are:
+	•	ADRs: to provide a record and direction
+	•	Architectural Characteristics to drive the process
+	•	Using Domain Driven Design for analysis
+	•	Using AI to help the architectural design
+	•	Think about where AI integrates into an architecture
+	•	Use Scrivener and Quarto for documentation
+
+
+</Text>
         </Document>
         <Document ID="9E10C7D5-D2D9-48A7-A5F4-5CB69C0ED66F">
             <Title>Multipart Table</Title>
@@ -140,49 +93,6 @@ Main caption; use the Inspector’s Custom Metadata → ID, Class &amp; Attribut
 </Text>
             <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
         </Document>
-        <Document ID="3EA388E0-C7E3-45D2-8D8E-C8DD7AE862F6">
-            <Title>Data Recording</Title>
-            <Text>
-![A figure of a poor, poor marginalised elephant…](Elephant 3){#fig-marginalia}
-
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, and here is some inline maths: e^{ix}=r(\cos \theta +i\sin \theta), est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
-
-Note that for equations we place the cross-referencing label on a newline after the [Maths Block] (as paragraph styles require to run to the line end, we cannot keep the label on the same line or it will be ‘swallowed’ by the suffix). The post-processing script will place this label back on the same line after the $$ has been added by Scrivener’s compiler so that Quarto can properly cross-reference it…  
-
-See both @eq-one and @eq-two for more details:
-
-t' = \frac{t - \dfrac{v}{c^{2}}x}{\sqrt{1 - \dfrac{v^{2}}{c^{2}}}}
-{#eq-one}
-
-Sint meis quo et, vis ad fæcete dolorem!   
-
-\nabla \times \mathbf {H} ={\frac {1}{c}}\left(4\pi \mathbf {J} _{\text{f}}+{\frac {\partial \mathbf {D} }{\partial t}}\right)
-{#eq-two}
-
-Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.See @fig-marginalia for a poor marginalised elephant. Ad quøt moderatius elaboraret eum [@siegel2015], pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm?
-
-# This is a styled Ruby code block, 
-# using the paragraph style [Ruby Code]
-
-# Output "I love Ruby"
-say = "I love Ruby"
-puts say
-
-# Output "I *LOVE* RUBY"
-say['love'] = "*love*"
-puts say.upcase
-
-# Output "I *love* Ruby"
-# five times
-5.times { puts say }
-
-Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex [@siegel2015], est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
-</Text>
-            <Comments>Another footnote. Although footnotes get converted just fine, one caveat is you cannot use Scrivener inline styles, so you **must** use Pandoc markup *directly*.</Comments>
-        </Document>
-        <Document ID="C3B826DA-2B69-433E-AE8F-96FD8BC82EBB">
-            <Title>Elephant 2</Title>
-        </Document>
         <Document ID="1ACCA6A1-1239-443E-B1CC-D3CC9058013A">
             <Title>Note Callout</Title>
             <Text>This is a note callout.</Text>
@@ -194,11 +104,6 @@ Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønde
 #
 
 The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…</Text>
-        </Document>
-        <Document ID="DAE0B6CC-07A9-46F2-ACED-44F8DD10D299">
-            <Title>Bibliography</Title>
-            <Text>
-</Text>
         </Document>
         <Document ID="AD107F76-1964-416F-8DD0-01B59C5A3060">
             <Title>About this Template</Title>
@@ -249,35 +154,6 @@ Quarto’s documentation is excellent. Some of the cool features that Quarto in
 Quarto install almost everything required (you can use it to manage Pandoc, LaTeX, Graphviz, Mermaid and other tools all-in-one). For LaTeX it can install and update TinyTeX, allowing a small install footprint and automated addition of packages from CTAN. If you want to use R then you must install it yourself.
 </Text>
         </Document>
-        <Document ID="538C111A-6FE6-4B35-9B93-14232AF1572B">
-            <Title>Graphviz Figure</Title>
-            <Text>//| label: fig-statemachine
-//| fig-cap: A Graphviz-generated state machine diagram, output using a [Diagram Dot] Section Type. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…
-
-digraph finite_state_machine {
-	Fontname="Avenir,Helvetica,sans-serif"
-	node [fontname="Avenir,Helvetica,sans-serif"]
-	edge [fontname="Avenir,Helvetica,sans-serif"]
-	rankdir=LR;
-	node [shape = doublecircle]; 0 3 4 8;
-	node [shape = circle];
-	0 -&gt; 2 [label = "SS(B)"];
-	0 -&gt; 1 [label = "SS(S)"];
-	1 -&gt; 3 [label = "S($end)"];
-	2 -&gt; 6 [label = "SS(b)"];
-	2 -&gt; 5 [label = "SS(a)"];
-	2 -&gt; 4 [label = "S(A)"];
-	5 -&gt; 7 [label = "S(b)"];
-	5 -&gt; 5 [label = "S(a)"];
-	6 -&gt; 6 [label = "S(b)"];
-	6 -&gt; 5 [label = "S(a)"];
-	7 -&gt; 8 [label = "S(b)"];
-	7 -&gt; 5 [label = "S(a)"];
-	8 -&gt; 6 [label = "S(b)"];
-	8 -&gt; 5 [label = "S(a)"];
-}
-</Text>
-        </Document>
         <Document ID="1AB3BC7E-221E-4E72-88CA-F8376C04E680">
             <Title>Column Page←Left</Title>
             <Text>This uses a Section Type [Layout Column Page←Left]. The contents will be assigned the .column-page-left class and stretched leftwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
@@ -306,173 +182,65 @@ digraph finite_state_machine {
 </Text>
             <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
         </Document>
-        <Document ID="0FEBFFB9-BE9B-405B-A67E-41D0B40C345A">
-            <Title>Multipart Table</Title>
-            <Text>Column 1
-Column 2
-Column 3
-A
-B
-C
-D
-E
-F
-G
-H
-I
-: First Table {#tbl-first2}
+        <Document ID="51EA1C20-B9EB-4D83-92CE-248B436103D6">
+            <Title>Architectural Decision Statement</Title>
+            <Text>The Y-Statement is a highly structured, single-sentence template used to capture the core architectural decision quickly. It gets its name because its visual architecture or structural flow resembles the letter "Y"—branching out from a context into a choice, a rationale, and the resulting trade-offs.
+It was popularized by software architect Olaf Zimmermann to help teams document decisions in a fast, punchy, and standardized way without writing pages of documentation.
 
-Column 1
-Column 2
-Column 3
-J
-K
-L
-M
-N
-O
-P
-Q
-R
-: Second Table {#tbl-second2}
+## The Template
 
-This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multipart Table]. Note that Custom Metadata holds the cross-referencing label, layout class and the attributes for this multipart table, which will be added by the Section Layout by the compiler, using the Scrivener placeholders: &lt;​$​​custom:ID&gt; &lt;​$​​custom:Class&gt; &lt;​$​​custom:Attributes&gt; 
-</Text>
-        </Document>
-        <Document ID="F1AA3BE0-F47B-44A4-9681-B165BEDB56C7">
-            <Text>Ad pro quod definitiønem, mel no laudem delectus [@siegel2015], te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
+In the context of [context],
+we faced the challenge of [problem].
+We decided on [selected option],
+and neglected [alternative options],
+to achieve [benefits],
+accepting [drawbacks/risks].
 
-No meæ menandri mediøcritatem [@siegel2015; @barrett2015; @crivellato2007], meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
+## A Concrete Example
+Here is how a real-world decision looks when mapped to a Y-Statement:
+
+In the context of our new e-commerce microservices,
+we faced the challenge of choosing a reliable data storage for shopping carts.
+We decided on Redis,
+and neglected PostgreSQL and DynamoDB,
+to achieve sub-millisecond read/write speeds and automatic session expiration,
+accepting the risk of data loss if the cache node crashes before persistence occurs.
+
+## Why Use It?
+
+* Forces Clarity: Because it is a single sentence, you cannot hide vague reasoning behind paragraphs of text.
+* Highly Scannable: Engineers can read 5 different Y-Statements in under a minute to understand a system's entire history.
+* Perfect for Git: It fits beautifully into a commit message or a pull request description.
+
+https://share.google/aimode/tOl0xgIz03UJ5vnmt 
+
 </Text>
         </Document>
         <Document ID="0928180C-5325-4A71-AE4E-3D928D8FC0C0">
             <Title>Warning Callout</Title>
             <Text>This is a warning callout.</Text>
         </Document>
-        <Document ID="A14DF5BB-79FC-44CE-8E56-85EB37D97781">
-            <Title>Stimulus Plotting</Title>
-            <Text>Note if you have R and Python installed, you can run code like so...
-
-Here is an R plot (@fig-airquality), you need to have R installed for this to work and also the tidy verse packages, if not simply remove this document from the compile:  
-
-#| label: fig-airquality
-#| fig-cap: A plot generated at compile-time by R, using a Scrivener paragraph style [R Block] and using column-page layout; the plot shows temperature against ozone level.
-#| column: page
-#| warning: false
-
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess")
-
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. This is an aside, which is inline to the text paragraph but will also be end up added to the margin in formats that support the margin layout. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
-
-</Text>
-        </Document>
-        <Document ID="C7DE6C79-67F9-4873-BD08-376A867C1B6E">
-            <Title>Methods</Title>
-        </Document>
-        <Document ID="3B1A06ED-3252-475A-9C22-DD92A4707DB1">
-            <Title>cover</Title>
-        </Document>
-        <Document ID="2A3CE4F8-B8AE-4E24-94A0-DA38CBE20492">
-            <Title>Multipart Figure</Title>
-            <Text>
-#
-{#fig-castle2} Elephant.
-
-#
-{#fig-trunk2} Angry elephant with big trunk.
-
-This demonstrates generating a multi-panel figure using a Scrivener Section Type [Multipart Figure] instead of using raw markdown as shown here. ID, Class and Attributes specific to the block [#fig-elephants2 .column-body layout-ncol=2 layout-valign="bottom"] are saved to Custom Metadata-&gt;ID, Class &amp; Attributes, and this is then inserted into the markup for this chunk by the Section Layout at compile time.  
-
-</Text>
-        </Document>
-        <Document ID="CDBF9C45-8619-4A78-B90A-47CE76E844D3">
-            <Title>R Code</Title>
-            <Text>#| label: tbl-tableKable
-#| tbl-cap: This table uses Section Type [Code R] to insert the correct markup at compile, this is an alterative to using the [R Block] paragraph style. This shows a table generated by the R package kableExtra. Currently this works for HTML and LaTeX.
-#| echo: false
-
-# install.packages("kableExtra") # you need to install this in R
-library(kableExtra)
-dt &lt;- mtcars[1:5, 1:6]
-kbl(dt) %&gt;%
-  kable_styling(bootstrap_options = c("striped", "hover"))
-</Text>
-        </Document>
-        <Document ID="57175DA2-BFF9-4381-9358-0C5843427049">
-            <Title>Text</Title>
-            <Text>Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
-
-</Text>
-        </Document>
-        <Document ID="AB20E377-AA9F-46EB-9D42-CFDA75D5D58C">
-            <Text>Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset! We can reference sub-tables, for example see @tbl-second.
-
-::: {#tbl-panel layout-ncol=2}
-| Col1 | Col2 | Col3 |
-|------|------|------|
-| A    | B    | C    |
-| E    | F    | G    |
-| A    | G    | G    |
-
-: First Table {#tbl-first}
-
-| Col1 | Col2 | Col3 |
-|------|------|------|
-| A    | B    | C    |
-| E    | F    | G    |
-| A    | G    | G    |
-
-: Second Table {#tbl-second}
-
-This is a markdown table panel with two sub-tables; just using plain markdown in the editor (no Scrivener Styles or Section Types).
-:::
-
-No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
-
-Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  Please refer to @tbl-panel2, including @tbl-first2 and @tbl-second2 for more details.
-</Text>
-        </Document>
         <Document ID="3CDA6495-B6EE-4128-9310-2608589863D8">
             <Title>Important Callout</Title>
             <Text>This is an important callout.</Text>
         </Document>
-        <Document ID="0CD37C9C-B62F-44D6-9290-BE255E64CBCC">
-            <Text>#
-««AB»» This should span the page to the right in HTML. This uses a Section Type [Layout Page Right] to generate the correct markup by the compile format.
+        <Document ID="000FD30C-A6F3-47B9-9C5E-A995D01C3B4C">
+            <Title>follow up links</Title>
+            <Text>The Kickoff event: https://learning.oreilly.com/live-events/architectural-katas-2026-ai-assisted-software-architecture/0642572412906/
+
+Mentions: Recommended follow-up:
+	•	Read AI Engineering (book)
+	•	Read Fundamentals of Software Architecture, second edition (book)
+	•	Read Building Microservices, second edition (book)
+	•	Read Generative AI Design Patterns (book)
+	•	Take Generative AI in Production (live course with Skanda Vivek)
+	•	Take Microservices Bootcamp (live course with Sam Newman)
+	•	Take Software Architecture by Example (live course with Neal Ford and Mark Richards)
+See also
+	•	Communicating Software Architecture View details
+	•	System Design Interview Boot Camp View details
+	•	Software Architecture Characteristics  View details
 </Text>
-        </Document>
-        <Document ID="0771D8C0-9C32-44E0-B995-153D7A26675E">
-            <Title>Figure + Attributes</Title>
-            <Text>#
-««AB»» This figure uses custom metadata values to identify the class, ID, width and height. The ««A​B»» tag at the start of the caption is replaced with the correct Scrivener placeholders by the compiler; see global replacements for the details…
-
-
-
-</Text>
-            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
-        </Document>
-        <Document ID="A6D02C06-BC06-40BB-9B28-D402C89F3D84">
-            <Title>Caution Callout </Title>
-            <Text>This is a callout, but generated using a Section Type [Callout Caution] rather than a paragraph style. Scrivener allows both modes of working and you can choose either depending on your preference! Don’t forget to utilise Scrivenings mode if you use lots of Section Types so you can edit as a ‘single’ document…</Text>
-        </Document>
-        <Document ID="AB38A251-9958-45A2-B509-DAA93E53FE2C">
-            <Title>apa</Title>
-            <Synopsis>Select this file and export it, it should be named something like apa.csl</Synopsis>
-        </Document>
-        <Document ID="B3017584-77DF-4751-89E1-EA62098C1BDB">
-            <Title>Discussion</Title>
-            <Text>Lørem ipsum dolør sit amet [@siegel2015], eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@siegel2015]. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no (see Introduction), mei nostrud necessitatibus te?  
-
-#
-{#fig-alignright fig-align="right"} This should be right-aligned if there is space…
-
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad [@siegel2015], ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
-</Text>
-            <Comments>A final footnote.</Comments>
         </Document>
         <Document ID="58DD51C0-A10D-42D4-A7CD-5633135703FF">
             <Title>Graphviz Graph</Title>
@@ -483,90 +251,37 @@ Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pr
 
 </Text>
         </Document>
-        <Document ID="11709F70-97CB-4CF6-B600-51EE0E1FCD5E">
-            <Title>Mermaid Figure</Title>
-            <Text>%%|label: fig-mermaid
-%%|fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid]; The plot represents some sort of graph…
-%%{init: {
-  "theme": "forest",
-  "themeCSS": ".extension { fill: white !important; };"
-}}%%
-
-flowchart LR
-  A[Hard edge] --&gt; B(Round edge)
-  B --&gt; C{Decision}
-  C --&gt; D[Result one]
-  C --&gt; E[Result two]
+        <Document ID="B843BFA6-105F-49EA-9CFB-9D7CCD0ECDD4">
+            <Title>0: Process and tools</Title>
+            <Text>Status: Accepted
+Context:
+Firstly let’s set the tools, rules, and processes
+Decision:
+	•	Will proceed using ADRs
+	•	Will use Domain Driven Design as a analyis framework
+	•	Will seek AI feedback on each ADR
+	•	Will use Scrivener to manage  documents, links, research and deliverables. 
+Considered Options:
+	•	Having a structured Approach is sine qua non
+Consequences:
+	•	Positive: This will provide a record of decisions and be methodical
+	•	Negative: Requires discipline.
 </Text>
         </Document>
-        <Document ID="970591F7-5187-42B5-ABD1-3395110CE19E">
-            <Title>Statistical Analysis</Title>
-            <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+        <Document ID="CDDF52AE-102B-4FA9-87E7-E1C3F100AF10">
+            <Text>
+Midway Event Bus
+
+Content is user-generated and unverified.
 
-//| label: fig-graphviz
-//| fig-cap: A graphviz graph with figure reference and caption, using the [Dot block] paragraph style. Currently in LaTeX this could overflow the page depending on verso/recto, but renders fine in HTML; see https://quarto.org/docs/authoring/diagrams.html#sizing for more details…
+
+Sign in
 
-graph G {
-  layout=neato
-  run -- intr;
-  intr -- runbl;
-  runbl -- run;
-  run -- kernel;
-  kernel -- zombie;
-  kernel -- sleep;
-  kernel -- runmem;
-  sleep -- swap;
-  swap -- runswap;
-  runswap -- new;
-  runswap -- runmem;
-  new -- runmem;
-  sleep -- runmem;
-}
-
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam. See @fig-statemachine and @fig-mermaid for details.
 </Text>
         </Document>
         <Document ID="E4F662EA-5904-465F-A709-E9F001D66A52">
             <Title>Column Page→Right</Title>
             <Text>This uses a Section Type [Layout Column Page→Right]. The contents will be assigned the .column-page-right class and stretched rightwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
-</Text>
-        </Document>
-        <Document ID="BC65073D-ED94-401E-A1AB-1A62306E4ACA">
-            <Title>Experimental Perturbations</Title>
-            <Text>Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod. Sed illum minimum at, est mægna alienum mentitum ne. Amet equidem sit ex. Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
-
-Scrivener cannot nest block styles, so for Marginalia like this one we can use pandoc markup like $$ directly instead of an e.g. maths block paragraph style. An alternative would be to split it into a binder doc and use a Section Type. We know from the first fundamental theorem of calculus that for x in [a, b]:
-$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
-
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum, pro paulo ridens quaestio ut! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam.  
-
-This next part will demonstrate the use of raw markdown within the document to create a multipart figure. See @fig-elephants2 below for an example using a Section Type to insert the same markup at compile-time.
-
-::: {#fig-elephants .column-body layout-ncol=2 layout-valign=“top”}
-
-#
-{#fig-castle} Elephant castle.
-
-#
-{#fig-trunk} Angry elephant with big trunk.
-
-Quarto allows the creation of figure panels with sub-figures. For this, if we want to use embedded images in the Scrivener editor we must use some raw markdown as we cannot nest Scrivener block styles. Note we can use the Scale Image... Tool in Scrivener and these sizes get exported to Quarto and the output. Here we scale both images to the same height.
-:::
-
-See @fig-elephants, particularly @fig-castle. Ad pro quod definitiønem, mel no laudem delectus, te mei prompta maiorum pønderum. Solum aeque singulis duo ex, est an iriure øblique. Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
-
-Note that there are five types of callouts, including: 
-`note`, `tip`, `warning`, `caution`, and `important`.
-
-No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex [@siegel2015], ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  
-
-Note that there are five types of callouts, including: 
-`note`, `tip`, `warning`, `caution`, and `important`.
-
-Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
-
-Note that there are five types of callouts, including: 
-`note`, `tip`, `warning`, `caution`, and `important`.
 </Text>
         </Document>
         <Document ID="E8956215-97C1-41DA-8AB9-50C2891EA656">
@@ -649,72 +364,36 @@ The script edits the compiled markdown so the {#eq-label} is placed on the same 
             <Text>This uses a Section Type [Layout Column Page]. The contents will be assigned the .column-page class and stretched across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
 </Text>
         </Document>
-        <Document ID="6777C5FF-BCD4-43E1-9A65-8AB83586DDD7">
-            <Title>Conflicts of Interest</Title>
-            <Text>The authors do love octopods, but this in no way biases their work.</Text>
-        </Document>
-        <Document ID="874FC928-F6CD-4B4B-A8C9-5400A210E27C">
-            <Title>Introduction</Title>
-            <Text>“We don’t see things as they are, we see them as we are.” — Anaïs Nin
+        <Document ID="D2E3B6D5-155D-4CB3-9501-8EDDC01016C3">
+            <Title>ADR</Title>
+            <Text>Status:
 
-Lørem ipsum dolør sit amet, eu ipsum movet vix, veniam låoreet posidonium te eøs, eæm in veri eirmod [@barrett2015; @crivellato2007]. Sed illum minimum at 3.25×10⁴⁸ (see Results) , est mægna alienum mentitum ne. Amet equidem sit ex (see Conclusion). Ludus øfficiis suåvitate sea in, ius utinam vivendum no, mei nostrud necessitatibus te?  
+Context:
 
-#
-{#fig-elephant .column-body} We add the cross-referencing label to the start of the caption. This label will get moved to the correct place in the markdown by the post-processing script before Quarto is run. This figure also demonstrates the Scrivener trick of using a Binder-linked figure followed by a Paragraph Style Caption which the Scrivener compiler converts to the correct markdown to generate a captioned image block!
+Decision:
 
-Sint meis quo et, vis ad fæcete dolorem! Ad quøt moderatius elaboraret eum[@crivellato2007], pro paulo ridens quaestio ut (see @fig-elephant)! Iudico nullam sit ad, ad has åperiam senserit conceptåm? Tritani posidonium suscipiantur ex duo, meæ essent mentitum ad. Nåm ex mucius mandamus, ut duo cåusae offendit laboramus. Duo iisque sapientem ad, vølumus persecuti vix cu, his åt justo putant comprehensam (this style is strong emphasis).  
+Considered Options:
 
-Ad pro quod superscript, mel no laudem subscript, te mei prompta maiorum pønderum [@siegel2015; @copenhaver2014; @hoffman2014; @barrett2015; @simmons2013]. Solum aeque singulis duo ex, est an iriure øblique.  
-
-Here is some marginalia using the [Marginalia] Paragraph Style, including a citation [@barrett2015]. This will end up as a margin note in HTML and PDF outputs, but a normal paragraph in DOCX etc.
-
-Volumus åntiøpam iudicåbit et pro, cibo ubique hås an? Cu his movet feugiåt pårtiendo [@barrett2015; @crivellato2007]! Eam in ubique høneståtis ullåmcorper, no eos vitae orætiø viderer. Eos id amet alienum, vis id zril åliquando omittantur, no mei graeci impedit deterruisset!  
-
-This callout is generated using the [Callout Tip] Scrivener Paragraph Style…
-
-This is a standard native Scrivener list, which will get converted to markdown by the Scrivener compiler: 
-
-	•	Item 1
-	•	Item 2
-	⁃	Item 2a
-	⁃	Item 2b
-	•	Item 3
-
-No meæ menandri mediøcritatem, meis tibique convenire vis id! Delicata intellegam mei ex. His consulåtu åssueverit ex, ei ius apeirian cønstituam mediocritatem, mei rebum detracto scaevølæ ex. Sed modo dico ullum at, sententiae definiebas ex eam! Nøstro eruditi eum ex.  See @tbl-test for more details.   
-
-Table Head 1
-Table Head 2
-Table Head 3
-Item 1
-Item 2
-Item 3
-Item 4
-Item 5
-Item 6
-Item 7
-Item 8
-Item 9
-Item 10
-Item 11
-Item 12
-: This is native Scrivener table with a referenced table caption. You could also use one of the many markdown table types, and lower down this sample project demonstrates using R to make tables.  {#tbl-test}
-
-Åd nam omnis ullamcørper vituperatoribus. Sed verear tincidunt rationibus an. Elit såperet recteque sit et, tåmquåm noluisse eloquentiåm ei mei. In pri solet soleat timeam, tale possit vis æt.  
-</Text>
-            <Comments>This is a footnote, **with** a citation [@crivellato2007].
-Jane Doe 16/04/2019, 14:50 - this is a comment.</Comments>
-        </Document>
-        <Document ID="E5DA4A67-63A9-4CB1-8886-CE7761A62A5B">
-            <Title>Marginalia</Title>
-            <Text>This Marginalia is using a Section Type [Layout Margin]. We can therefore use paragraph styles here, like [Maths Block]. We know from the first fundamental theorem of calculus that for x in [a, b]
-\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).
-{#eq-marginalia}
-
+Consequences:
 </Text>
         </Document>
-        <Document ID="BC3362E8-2128-48EF-AF04-9717113AEA55">
-            <Title>Core</Title>
-            <Synopsis>The bibliography database as a CSL JSON file. Export it and place it where your metadata points.</Synopsis>
+        <Document ID="C0115381-CFEA-4D13-BB6A-C990B005A2EC">
+            <Title>Review of the Project Scope</Title>
+            <Text>The Project involves thinking about an estate that’s seeking a new direction and is looking to a technological solutions to help them plot their new direction. Event Page
+Initial discussion of relevant details
+
+ Von Digitalis Estate is made up of:
+	•	Currently: 5000 visitors a day: That’s about equal to about a ten visitors a second.
+	⁃	This will generate a spike of traffic on open (and perhaps closing time) and a steady stream of telemetry and monitoring throughout the day
+	•	Growth plans to 15,000: These are probably wild guesstimates: it would be wise to be able to scale and cope with a good deal more:  Retaining the ability for x10 capacity increase would be wise. And given the uncertainty, new projects will likely to also be accommodated.
+
+‘Predictions are hard, especially about the future’ Niels Bohr
+
+	•	There’s several broad themes in several domains:
+	⁃	Tickets and passes
+	⁃	Visitor activity tracking and sensors: for trends and strategic planning
+	⁃	Asset telemetry: track activities, health and behaviour of the 40 amusement rides &amp; 200 animals/plants/fish enclosures
+</Text>
         </Document>
         <Document ID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55">
             <Title>Metadata</Title>
@@ -730,21 +409,14 @@ Jane Doe 16/04/2019, 14:50 - this is a comment.</Comments>
 # the location of your bibliography files and change any fonts
 # to those present on your system.
 #
-title: "&lt;$projecttitle&gt;"
-subtitle: "A Compiler Workflow…"
+title: “Architectural Kata 2026”
+subtitle: "A stab at architectural thinking in the age of AI "
 author: 
-  - name: Jane Doe
-    email: jane@doe.org
+  - name: Julian Harley 
+    email: julian@example.com
     corresponding: true
-    affiliations:
-      - International Cephalopod Research Institute (ICRI), Pacific Ocean.
-      - Center for Advanced Octopod Studies (CAOS), Atlantic Ocean.
-  - name: John Doe
-    email: john@doe.com
-    affiliations:
-      - Center for Advanced Octopod Studies (CAOS), Atlantic Ocean.
-keywords: [pandoc, quarto, scrivener]
-subject: workflow
+keywords: [architecture, kata, AI]
+subject: Architectural report
 lang: en
 date: &lt;$date:YYYY-MM-dd&gt;      # Scrivener placeholder
 verbose: true                 # pandoc verbosity
