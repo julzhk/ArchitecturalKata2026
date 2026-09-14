@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="4999718C-11F3-4D34-ACCA-BB27CFC74482">
-            <Title>Figure + Attributes</Title>
-            <Text>
-#
-{&lt;$Custom:ID&gt; &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption.
-
-
-
-</Text>
-            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
-        </Document>
-        <Document ID="BE61A69F-1CF4-4F73-B6E1-5AE74806D0BE">
-            <Title>Caution Callout </Title>
-            <Text>This is a caution callout.</Text>
-        </Document>
-        <Document ID="8B014782-1E52-4F6D-B15C-CA5FB440B23B">
-            <Title>Templates</Title>
-            <Notes>These templates allow you to create new documents.</Notes>
-        </Document>
         <Document ID="2DFE9CFF-07B9-49E5-A0CA-AF23DBB63535">
             <Title>Process</Title>
             <Text>This is a KATA. It’s not a real project. 
@@ -36,363 +17,21 @@ The topics I personally want to exercise in this Kata are:
 
 </Text>
         </Document>
-        <Document ID="9E10C7D5-D2D9-48A7-A5F4-5CB69C0ED66F">
-            <Title>Multipart Table</Title>
-            <Text>Table Head 1
-Table Head 2
-Table Head 3
-Item 1
-Item 2
-Item 3
-Item 4
-Item 5
-Item 6
-Item 7
-Item 8
-Item 9
-Item 10
-Item 11
-Item 12
-: First Table Caption {#tbl-first}
-
-Table Head 1
-Table Head 2
-Table Head 3
-Item 1
-Item 2
-Item 3
-Item 4
-Item 5
-Item 6
-Item 7
-Item 8
-Item 9
-Item 10
-Item 11
-Item 12
-: Second Table Caption {#tbl-second}
-
-Main caption. This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multiformat Table] Edit the Inspector’s Custom Metadata [ID, Class &amp; Attributes] which holds the cross-referencing label and the attributes for this multipart table, which will be added by the Section Layout by the compiler.
-</Text>
-        </Document>
-        <Document ID="E6AB68C4-7984-42B9-B7B5-E97DFF5D254F">
-            <Title>Tip Callout</Title>
-            <Text>This is a tip callout.</Text>
-        </Document>
-        <Document ID="96690C34-1F3E-4364-9883-79E52C6E4086">
-            <Title>Multipart Figure</Title>
-            <Text>
-#
-{#fig-labelA} Caption.
-
-#
-{#fig-labelB} Caption.
-
-Main caption; use the Inspector’s Custom Metadata → ID, Class &amp; Attributes to edit the document-specific attributes including the cross-reference label. Default values are #fig-multipart .column-page layout-ncol=2 layout-valign="bottom" — see https://quarto.org/docs/authoring/figures.html#multiformat-figures for details…
-
-</Text>
-            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
-        </Document>
-        <Document ID="1ACCA6A1-1239-443E-B1CC-D3CC9058013A">
-            <Title>Note Callout</Title>
-            <Text>This is a note callout.</Text>
-        </Document>
-        <Document ID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754">
-            <Title>Compiler script details</Title>
-            <Text>There is a small ruby script that deals with the reformatting from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format:
-
-#
-
-The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…</Text>
-        </Document>
-        <Document ID="AD107F76-1964-416F-8DD0-01B59C5A3060">
-            <Title>About this Template</Title>
-            <Text>TEMPLATE VERSION: V1.0.5
-This project template shows how to combine Scrivener and the scientific and technical publishing system, Quarto. Quarto is basically an opinionated wrapper around Pandoc, including templates for multiple outputs alongside numerous filters and extensions. 
-
-NOTE: there is a small Scrivener bug (fixed in V3.3.1 on macOS however) that causes the main compile metadata to reset. For older Scrivener, you must remove title and author metadata from the compiler metadata panel for this project to compile properly. In addition, for the sample content, if you don't have R installed, you must remove the [Stimulus Plotting] section from the compile list as they use R. R can easily be installed via homebrew: 
-
-    brew install homebrew/cask/r
-    brew install xquartz
-
-Then run R from the terminal and install the tidyverse and kableExtra packages, this should cover the dependencies:
-
-    install.packages("tidyverse")
-    install.packages("kableExtra")
-
-Finally, you must edit the Metadata paths and fonts to those available on your system for the compile to succeed. The script replaces ${USERHOME} with your home folder path, but it is up to you to set up the rest of the path. I use my pandoc folder to store my bibliography, cal and templates files, so for example my CSL file is stored at ${USERHOME}/.local/share/pandoc/csl/apa.csl
-
-For the bibliography you need to replace the in-text citations like [@siegel2015] with your own, or export my Core.json to a location specified by the Metadata bibliography key. The CSL file is also available and you can export it from apa.csl and point to it using the csl metadata key. 
-
-If you want to use the same fonts I specify, you can install them from homebrew in the terminal (https://brew.sh):
-
-    brew tap homebrew/cask-fonts
-    brew install font-alegreya font-alegreya-sans
-
-As I already demonstrate how to use Scrivener with pandoc, it was trivial to add a new workflow for supporting the use of Scrivener with the new technical and scientific publishing system, Quarto. Quarto bundles Pandoc along with a set of extensions and templates to provide an all-in-one experience, including Tufte-like output, extensive cross-referencing of equations tables figures &amp; code, and running code (R, Python, Julia, Dot, Mermaid etc.) to generate figures and complex layouts.
-
-Because Scrivener supports Pandoc-flavoured markdown and automated post-processing, it also supports Quarto. However, for cross-referencing it places the labels at the end of the line, which conflicts with Scrivener’s block style injection of markup. A small mod of an existing pandoc-crossref post-processing script solved this problem. The script run from the post-processing pane of the Scrivener compiler runs quarto automatically after tweaking the path and fixing the cross-references.
-
-Most features of Quarto can be enabled via three routes:
-
-	1	Enabled using Scrivener styles — example: Callouts, Live Code. The only caveat is Scrivener doesn’t allow paragraph [block] styles to be nested.
-	2	Enabled using Scrivener Section Layouts — example: Multipanel images / tables using cross-referencing attributes. This method enables nested blocks.
-	3	You can always write plain markdown in the editor if you prefer…
-
-Quarto’s documentation is excellent. Some of the cool features that Quarto includes:
-
-	1	Panels with sub-figures and sub-tables.
-	2	Based on Tufte, you can use margins for notes, figures, equations etc. Layout can be modified to span the page in many ways.
-	3	Comprehensive cross-referencing, using Pandoc’s @citation markup (based on pandoc-crossref). For sub-figures / tables, it will add labels, like Figure 3(c) and these can be customised in th metadata.
-	4	Academic author + affiliation metadata «similar to scrivomatic and pandoc scholar».
-	5	Run Python, R, Julia code “live” to plot figures on each compile.
-	6	Use graphing engines like Mermaid and Graphviz.
-	7	HTML output has lots of cool tweaks, see https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html for example.
-	8	Quarto allows installable extensions, so you can plug in new layout templates and code to extend its powers!
-
-
-Quarto install almost everything required (you can use it to manage Pandoc, LaTeX, Graphviz, Mermaid and other tools all-in-one). For LaTeX it can install and update TinyTeX, allowing a small install footprint and automated addition of packages from CTAN. If you want to use R then you must install it yourself.
-</Text>
-        </Document>
-        <Document ID="1AB3BC7E-221E-4E72-88CA-F8376C04E680">
-            <Title>Column Page←Left</Title>
-            <Text>This uses a Section Type [Layout Column Page←Left]. The contents will be assigned the .column-page-left class and stretched leftwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
-</Text>
-        </Document>
-        <Document ID="1E8405F4-2C3C-4EEA-AE91-A30A669CBA56">
-            <Title>Mermaid Graph</Title>
-            <Text>%%|label: fig-label
-%%|fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid], see https://quarto.org/docs/authoring/diagrams.html for more details
-%%| fig-width: 5
-%%{init: {
-  "themeCSS": ".extension { fill: white !important; };"
-}}%%
-
-
-</Text>
-        </Document>
-        <Document ID="EA34AC25-416C-4018-8F59-1204A188736B">
-            <Title>R Code</Title>
-            <Text>#| label: fig-label
-#| fig-cap: Place your figure caption here.
-
-# Place your R code here, see https://quarto.org/docs/computations/r.html
-
-
-</Text>
-            <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
-        </Document>
-        <Document ID="51EA1C20-B9EB-4D83-92CE-248B436103D6">
-            <Title>Architectural Decision Statement</Title>
-            <Text>The Y-Statement is a highly structured, single-sentence template used to capture the core architectural decision quickly. It gets its name because its visual architecture or structural flow resembles the letter "Y"—branching out from a context into a choice, a rationale, and the resulting trade-offs.
-It was popularized by software architect Olaf Zimmermann to help teams document decisions in a fast, punchy, and standardized way without writing pages of documentation.
-
-## The Template
-
-In the context of [context],
-we faced the challenge of [problem].
-We decided on [selected option],
-and neglected [alternative options],
-to achieve [benefits],
-accepting [drawbacks/risks].
-
-## A Concrete Example
-Here is how a real-world decision looks when mapped to a Y-Statement:
-
-In the context of our new e-commerce microservices,
-we faced the challenge of choosing a reliable data storage for shopping carts.
-We decided on Redis,
-and neglected PostgreSQL and DynamoDB,
-to achieve sub-millisecond read/write speeds and automatic session expiration,
-accepting the risk of data loss if the cache node crashes before persistence occurs.
-
-## Why Use It?
-
-* Forces Clarity: Because it is a single sentence, you cannot hide vague reasoning behind paragraphs of text.
-* Highly Scannable: Engineers can read 5 different Y-Statements in under a minute to understand a system's entire history.
-* Perfect for Git: It fits beautifully into a commit message or a pull request description.
-
-https://share.google/aimode/tOl0xgIz03UJ5vnmt 
-
-</Text>
-        </Document>
-        <Document ID="0928180C-5325-4A71-AE4E-3D928D8FC0C0">
-            <Title>Warning Callout</Title>
-            <Text>This is a warning callout.</Text>
-        </Document>
-        <Document ID="3CDA6495-B6EE-4128-9310-2608589863D8">
-            <Title>Important Callout</Title>
-            <Text>This is an important callout.</Text>
-        </Document>
-        <Document ID="000FD30C-A6F3-47B9-9C5E-A995D01C3B4C">
-            <Title>follow up links</Title>
-            <Text>The Kickoff event: https://learning.oreilly.com/live-events/architectural-katas-2026-ai-assisted-software-architecture/0642572412906/
-
-Mentions: Recommended follow-up:
-	•	Read AI Engineering (book)
-	•	Read Fundamentals of Software Architecture, second edition (book)
-	•	Read Building Microservices, second edition (book)
-	•	Read Generative AI Design Patterns (book)
-	•	Take Generative AI in Production (live course with Skanda Vivek)
-	•	Take Microservices Bootcamp (live course with Sam Newman)
-	•	Take Software Architecture by Example (live course with Neal Ford and Mark Richards)
-See also
-	•	Communicating Software Architecture View details
-	•	System Design Interview Boot Camp View details
-	•	Software Architecture Characteristics  View details
-</Text>
-        </Document>
-        <Document ID="58DD51C0-A10D-42D4-A7CD-5633135703FF">
-            <Title>Graphviz Graph</Title>
-            <Text>//| label: fig-label
-//| fig-cap: Figure caption, see https://quarto.org/docs/authoring/diagrams.html for more details
-//| fig-width: 5
-
-
-</Text>
-        </Document>
         <Document ID="B843BFA6-105F-49EA-9CFB-9D7CCD0ECDD4">
             <Title>0: Process and tools</Title>
             <Text>Status: Accepted
 Context:
-Firstly let’s set the tools, rules, and processes
+Firstly let’s set the tools, rules, and processes. ADRs, DDD and AI…
 Decision:
 	•	Will proceed using ADRs
 	•	Will use Domain Driven Design as a analyis framework
-	•	Will seek AI feedback on each ADR
-	•	Will use Scrivener to manage  documents, links, research and deliverables. 
+	•	Will seek AI feedback on each ADR: in a dedicated section
+	•	Will use Scrivener to manage  documents, links, research and deliverables.
 Considered Options:
 	•	Having a structured Approach is sine qua non
-Consequences:
+Consequences &amp; Trade-offs:
 	•	Positive: This will provide a record of decisions and be methodical
 	•	Negative: Requires discipline.
-</Text>
-        </Document>
-        <Document ID="CDDF52AE-102B-4FA9-87E7-E1C3F100AF10">
-            <Text>
-Midway Event Bus
-
-Content is user-generated and unverified.
-
-
-Sign in
-
-</Text>
-        </Document>
-        <Document ID="E4F662EA-5904-465F-A709-E9F001D66A52">
-            <Title>Column Page→Right</Title>
-            <Text>This uses a Section Type [Layout Column Page→Right]. The contents will be assigned the .column-page-right class and stretched rightwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
-</Text>
-        </Document>
-        <Document ID="E8956215-97C1-41DA-8AB9-50C2891EA656">
-            <Title>How to write?</Title>
-            <Text>Introduction
-
-Writing involves using the Scrivener Binder to determine document structure. You can use this Project as a template, delete all the sub-documents in Manuscript and start creating your own, using the Binder hierarchy to define your core structure. Add pictures and research etc. to Research. You can edit the project Metadata to modify the Quarto &amp; Pandoc options. You can use Scrivener Styles and Section Layouts to structure the semantic bits that will generate markup added at compile time. You can use Scrivener’s other native tools (lists, tables, links), and [mostly] should not need to add any markdown in the editor itself. Most Quarto features work without any modification.
-
-Writing Using Styles
-
-For Scrivener Styles, apply the Paragraph or Character style for each feature:
-#
-For Scrivener Styles, here are some example Quarto features. As is general practive for most markdown flavours, use empty lines around PAragraph Styles, for example callouts:
-
-Note that there are five types of callouts, including: 
-`note`, `tip`, `warning`, `caution`, and `important`.
-
-The Scrivener Styles are converted into the correctly styled div by the compiler. Here is an example marginalia block:
-
-This will appear in the margin.
-
-Diagram blocks for Mermaid and GraphViz are included, e.g. GraphViz (aka dot):
-
-digraph D {
-
-  A -&gt; {B, C, D} -&gt; {F}
-
-}
-
-Remember the way these Styles look in the editor is not translated to the markdown, they are used for semantic identification only. This means you can style in-editor text any way you want (fonts, colours etc).
-Writing Using Section Layouts
-
-If you want to use Section Types, use the document templates in the Project &gt; New from Template menu to create a new document of that type:
-
-#
-
-For an existing document, apply the Section Type using the Inspector Metadata Section Type menu. In cases where there are Paragraph Styles, Section Types enable you to wrap these blocks together (i.e. you can use a Maths Block Style inside a Marginalia Section Type). Another benefit of Section Types are the ability to inject custom attributes using metadata. See the Inspector’s Custom Metadata→ ID, Class &amp; Attributes in the multi-part image template below for an example.
-
-#
-
-Here you can see we add a cross-referencing label ID #fig-multipart, a layout class .column-page and layout attributes layout-ncol=2 layout-valign="bottom". These will be added to the markup that the compiler will add to the prefix of this section.
-
-                                                                                                    
-
-Cross Referencing Details:
-
-To support Quarto’s cross-referencing system (using {#item-...} labels at the end of the line), Scrivener’s pandoc-flavoured markdown output needs to be modified before Quarto can run. So, when writing in Scrivener we add the cross-referencing labels at the start of the caption; lets say we have an embedded image block:
-#
-{#fig-one} Here is a caption
-
-As Quarto expects {#labels} at the end of the image markup, the post-processing script will move {#fig-one} from the caption down to the reference link that identifies the image (Scrivener uses ![Caption][link] when converting editor images to markdown). 
-
-For equations we should write the {#label} on the first line after the [Maths Block] style:
-
-\nabla \times \mathbf {E} =-{\frac {\partial \mathbf {B} }{\partial t}}
-{#eq-maxwell}
-
-The script edits the compiled markdown so the {#eq-label} is placed on the same line after the $$ have been added by the compiler.
-</Text>
-        </Document>
-        <Document ID="E297D0E9-3F3B-44BE-8BA6-B976FAB8DBE0">
-            <Title>Python Code</Title>
-            <Text>#| label: fig-label
-#| fig-cap: Place your figure caption here.
-
-# Place your Python code here, see https://quarto.org/docs/computations/python.html 
-
-
-</Text>
-            <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
-        </Document>
-        <Document ID="28E4AEF0-E993-4AED-B36C-D45EE66FCBCE">
-            <Title>Marginalia</Title>
-            <Text>This Marginalia is using a Section Type [Layout Column Margin]. The contents will be assigned the .column-margin class and placed in the margin in HTML and LaTeX outputs. See https://quarto.org/docs/authoring/article-layout.html for details...  
-
-</Text>
-        </Document>
-        <Document ID="724E8835-2F2A-4288-8957-EEFB1D92413A">
-            <Title>Column Page</Title>
-            <Text>This uses a Section Type [Layout Column Page]. The contents will be assigned the .column-page class and stretched across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
-</Text>
-        </Document>
-        <Document ID="D2E3B6D5-155D-4CB3-9501-8EDDC01016C3">
-            <Title>ADR</Title>
-            <Text>Status:
-
-Context:
-
-Decision:
-
-Considered Options:
-
-Consequences:
-</Text>
-        </Document>
-        <Document ID="C0115381-CFEA-4D13-BB6A-C990B005A2EC">
-            <Title>Review of the Project Scope</Title>
-            <Text>The Project involves thinking about an estate that’s seeking a new direction and is looking to a technological solutions to help them plot their new direction. Event Page
-Initial discussion of relevant details
-
- Von Digitalis Estate is made up of:
-	•	Currently: 5000 visitors a day: That’s about equal to about a ten visitors a second.
-	⁃	This will generate a spike of traffic on open (and perhaps closing time) and a steady stream of telemetry and monitoring throughout the day
-	•	Growth plans to 15,000: These are probably wild guesstimates: it would be wise to be able to scale and cope with a good deal more:  Retaining the ability for x10 capacity increase would be wise. And given the uncertainty, new projects will likely to also be accommodated.
-
-‘Predictions are hard, especially about the future’ Niels Bohr
-
-	•	There’s several broad themes in several domains:
-	⁃	Tickets and passes
-	⁃	Visitor activity tracking and sensors: for trends and strategic planning
-	⁃	Asset telemetry: track activities, health and behaviour of the 40 amusement rides &amp; 200 animals/plants/fish enclosures
 </Text>
         </Document>
         <Document ID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55">
@@ -487,6 +126,386 @@ format:
   docx:
     prefer-html: true          # stops non-HTML format errors 
     reference-doc: ${USERHOME}/.local/share/pandoc/templates/custom.docx # change to your own docx template 
+</Text>
+        </Document>
+        <Document ID="2E99347A-5D8F-43C4-A5EF-A5DD9DE64800">
+            <Title>Deliverables</Title>
+            <Text>Summary of the Solution 
+	•	C4 based Mermaid Diagrams of the Domain Models &amp; components
+	•	ADRs
+	•	Implementation Details
+	•	
+</Text>
+        </Document>
+        <Document ID="3CDA6495-B6EE-4128-9310-2608589863D8">
+            <Title>Important Callout</Title>
+            <Text>This is an important callout.</Text>
+        </Document>
+        <Document ID="C270D3BA-1995-482D-AF9E-F5992A5AF56E">
+            <Title>schedule</Title>
+        </Document>
+        <Document ID="724E8835-2F2A-4288-8957-EEFB1D92413A">
+            <Title>Column Page</Title>
+            <Text>This uses a Section Type [Layout Column Page]. The contents will be assigned the .column-page class and stretched across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
+</Text>
+        </Document>
+        <Document ID="A109A89F-D1F8-4EE8-8AEB-77AE03705030">
+            <Title>ADRs</Title>
+        </Document>
+        <Document ID="EA34AC25-416C-4018-8F59-1204A188736B">
+            <Title>R Code</Title>
+            <Text>#| label: fig-label
+#| fig-cap: Place your figure caption here.
+
+# Place your R code here, see https://quarto.org/docs/computations/r.html
+
+
+</Text>
+            <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
+        </Document>
+        <Document ID="0928180C-5325-4A71-AE4E-3D928D8FC0C0">
+            <Title>Warning Callout</Title>
+            <Text>This is a warning callout.</Text>
+        </Document>
+        <Document ID="28E4AEF0-E993-4AED-B36C-D45EE66FCBCE">
+            <Title>Marginalia</Title>
+            <Text>This Marginalia is using a Section Type [Layout Column Margin]. The contents will be assigned the .column-margin class and placed in the margin in HTML and LaTeX outputs. See https://quarto.org/docs/authoring/article-layout.html for details...  
+
+</Text>
+        </Document>
+        <Document ID="1AB3BC7E-221E-4E72-88CA-F8376C04E680">
+            <Title>Column Page←Left</Title>
+            <Text>This uses a Section Type [Layout Column Page←Left]. The contents will be assigned the .column-page-left class and stretched leftwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
+</Text>
+        </Document>
+        <Document ID="51EA1C20-B9EB-4D83-92CE-248B436103D6">
+            <Title>Architectural Decision Statement</Title>
+            <Text>The Y-Statement is a highly structured, single-sentence template used to capture the core architectural decision quickly. It gets its name because its visual architecture or structural flow resembles the letter "Y"—branching out from a context into a choice, a rationale, and the resulting trade-offs.
+It was popularized by software architect Olaf Zimmermann to help teams document decisions in a fast, punchy, and standardized way without writing pages of documentation.
+
+## The Template
+
+In the context of [context],
+we faced the challenge of [problem].
+We decided on [selected option],
+and neglected [alternative options],
+to achieve [benefits],
+accepting [drawbacks/risks].
+
+## A Concrete Example
+Here is how a real-world decision looks when mapped to a Y-Statement:
+
+In the context of our new e-commerce microservices,
+we faced the challenge of choosing a reliable data storage for shopping carts.
+We decided on Redis,
+and neglected PostgreSQL and DynamoDB,
+to achieve sub-millisecond read/write speeds and automatic session expiration,
+accepting the risk of data loss if the cache node crashes before persistence occurs.
+
+## Why Use It?
+
+* Forces Clarity: Because it is a single sentence, you cannot hide vague reasoning behind paragraphs of text.
+* Highly Scannable: Engineers can read 5 different Y-Statements in under a minute to understand a system's entire history.
+* Perfect for Git: It fits beautifully into a commit message or a pull request description.
+
+https://share.google/aimode/tOl0xgIz03UJ5vnmt 
+
+</Text>
+        </Document>
+        <Document ID="BE61A69F-1CF4-4F73-B6E1-5AE74806D0BE">
+            <Title>Caution Callout </Title>
+            <Text>This is a caution callout.</Text>
+        </Document>
+        <Document ID="9E10C7D5-D2D9-48A7-A5F4-5CB69C0ED66F">
+            <Title>Multipart Table</Title>
+            <Text>Table Head 1
+Table Head 2
+Table Head 3
+Item 1
+Item 2
+Item 3
+Item 4
+Item 5
+Item 6
+Item 7
+Item 8
+Item 9
+Item 10
+Item 11
+Item 12
+: First Table Caption {#tbl-first}
+
+Table Head 1
+Table Head 2
+Table Head 3
+Item 1
+Item 2
+Item 3
+Item 4
+Item 5
+Item 6
+Item 7
+Item 8
+Item 9
+Item 10
+Item 11
+Item 12
+: Second Table Caption {#tbl-second}
+
+Main caption. This is a markdown multi-table panel with two sub-tables generated using a Section Type [Multiformat Table] Edit the Inspector’s Custom Metadata [ID, Class &amp; Attributes] which holds the cross-referencing label and the attributes for this multipart table, which will be added by the Section Layout by the compiler.
+</Text>
+        </Document>
+        <Document ID="96690C34-1F3E-4364-9883-79E52C6E4086">
+            <Title>Multipart Figure</Title>
+            <Text>
+MISSING_IMAGE:/Users/julianharley/Projects/ArchitecturalKata2026/Architecture_kata_2026.scriv/Files/Data/D3758D51-73E1-41A3-9947-FF13D054291A/content.png
+{#fig-labelA} Caption.
+
+MISSING_IMAGE:/Users/julianharley/Projects/ArchitecturalKata2026/Architecture_kata_2026.scriv/Files/Data/D3758D51-73E1-41A3-9947-FF13D054291A/content.png
+{#fig-labelB} Caption.
+
+Main caption; use the Inspector’s Custom Metadata → ID, Class &amp; Attributes to edit the document-specific attributes including the cross-reference label. Default values are #fig-multipart .column-page layout-ncol=2 layout-valign="bottom" — see https://quarto.org/docs/authoring/figures.html#multiformat-figures for details…
+
+</Text>
+            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
+        </Document>
+        <Document ID="1ACCA6A1-1239-443E-B1CC-D3CC9058013A">
+            <Title>Note Callout</Title>
+            <Text>This is a note callout.</Text>
+        </Document>
+        <Document ID="D2E3B6D5-155D-4CB3-9501-8EDDC01016C3">
+            <Title>ADR</Title>
+            <Text>Status:
+
+Context:
+
+Decision:
+
+Considered Options:
+
+Consequences &amp; Trade-offs:
+?
+?
+Gen-AI comments:
+</Text>
+        </Document>
+        <Document ID="4999718C-11F3-4D34-ACCA-BB27CFC74482">
+            <Title>Figure + Attributes</Title>
+            <Text>
+MISSING_IMAGE:/Users/julianharley/Projects/ArchitecturalKata2026/Architecture_kata_2026.scriv/Files/Data/D3758D51-73E1-41A3-9947-FF13D054291A/content.png
+{&lt;$Custom:ID&gt; &lt;$custom:Class&gt; &lt;$custom:Attributes&gt; &lt;$custom:Width&gt; &lt;$custom:Height&gt;} Caption.
+
+
+
+</Text>
+            <Notes>See https://quarto.org/docs/authoring/figures.html#multiformat-figures </Notes>
+        </Document>
+        <Document ID="E4F662EA-5904-465F-A709-E9F001D66A52">
+            <Title>Column Page→Right</Title>
+            <Text>This uses a Section Type [Layout Column Page→Right]. The contents will be assigned the .column-page-right class and stretched rightwards across the page, see https://quarto.org/docs/authoring/article-layout.html for details.  
+</Text>
+        </Document>
+        <Document ID="58DD51C0-A10D-42D4-A7CD-5633135703FF">
+            <Title>Graphviz Graph</Title>
+            <Text>//| label: fig-label
+//| fig-cap: Figure caption, see https://quarto.org/docs/authoring/diagrams.html for more details
+//| fig-width: 5
+
+
+</Text>
+        </Document>
+        <Document ID="E8956215-97C1-41DA-8AB9-50C2891EA656">
+            <Title>How to write?</Title>
+            <Text>Introduction
+
+Writing involves using the Scrivener Binder to determine document structure. You can use this Project as a template, delete all the sub-documents in Manuscript and start creating your own, using the Binder hierarchy to define your core structure. Add pictures and research etc. to Research. You can edit the project Metadata to modify the Quarto &amp; Pandoc options. You can use Scrivener Styles and Section Layouts to structure the semantic bits that will generate markup added at compile time. You can use Scrivener’s other native tools (lists, tables, links), and [mostly] should not need to add any markdown in the editor itself. Most Quarto features work without any modification.
+
+Writing Using Styles
+
+For Scrivener Styles, apply the Paragraph or Character style for each feature:
+#
+For Scrivener Styles, here are some example Quarto features. As is general practive for most markdown flavours, use empty lines around PAragraph Styles, for example callouts:
+
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+
+The Scrivener Styles are converted into the correctly styled div by the compiler. Here is an example marginalia block:
+
+This will appear in the margin.
+
+Diagram blocks for Mermaid and GraphViz are included, e.g. GraphViz (aka dot):
+
+digraph D {
+
+  A -&gt; {B, C, D} -&gt; {F}
+
+}
+
+Remember the way these Styles look in the editor is not translated to the markdown, they are used for semantic identification only. This means you can style in-editor text any way you want (fonts, colours etc).
+Writing Using Section Layouts
+
+If you want to use Section Types, use the document templates in the Project &gt; New from Template menu to create a new document of that type:
+
+#
+
+For an existing document, apply the Section Type using the Inspector Metadata Section Type menu. In cases where there are Paragraph Styles, Section Types enable you to wrap these blocks together (i.e. you can use a Maths Block Style inside a Marginalia Section Type). Another benefit of Section Types are the ability to inject custom attributes using metadata. See the Inspector’s Custom Metadata→ ID, Class &amp; Attributes in the multi-part image template below for an example.
+
+#
+
+Here you can see we add a cross-referencing label ID #fig-multipart, a layout class .column-page and layout attributes layout-ncol=2 layout-valign="bottom". These will be added to the markup that the compiler will add to the prefix of this section.
+
+                                                                                                    
+
+Cross Referencing Details:
+
+To support Quarto’s cross-referencing system (using {#item-...} labels at the end of the line), Scrivener’s pandoc-flavoured markdown output needs to be modified before Quarto can run. So, when writing in Scrivener we add the cross-referencing labels at the start of the caption; lets say we have an embedded image block:
+MISSING_IMAGE:/Users/julianharley/Projects/ArchitecturalKata2026/Architecture_kata_2026.scriv/Files/Data/D3758D51-73E1-41A3-9947-FF13D054291A/content.png
+{#fig-one} Here is a caption
+
+As Quarto expects {#labels} at the end of the image markup, the post-processing script will move {#fig-one} from the caption down to the reference link that identifies the image (Scrivener uses ![Caption][link] when converting editor images to markdown). 
+
+For equations we should write the {#label} on the first line after the [Maths Block] style:
+
+\nabla \times \mathbf {E} =-{\frac {\partial \mathbf {B} }{\partial t}}
+{#eq-maxwell}
+
+The script edits the compiled markdown so the {#eq-label} is placed on the same line after the $$ have been added by the compiler.
+</Text>
+        </Document>
+        <Document ID="8B014782-1E52-4F6D-B15C-CA5FB440B23B">
+            <Title>Templates</Title>
+            <Notes>These templates allow you to create new documents.</Notes>
+        </Document>
+        <Document ID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754">
+            <Title>Compiler script details</Title>
+            <Text>There is a small ruby script that deals with the reformatting from Scrivener to be compatible with Quarto. It allows you to pass a file name and a format, so you can edit the post-processing panel to change the output format (change html to pdf / docx / epub etc.). It is embedded in this project’s Compiler format:
+
+#
+
+The script’s output is redirected &amp;&gt; to a Quarto.log file and this log file will be opened after the compiler finishes so you can check any details or debug any errors…</Text>
+        </Document>
+        <Document ID="C0115381-CFEA-4D13-BB6A-C990B005A2EC">
+            <Title>Review of the Project Scope</Title>
+            <Text>The Project involves thinking about an estate that’s seeking a new direction and is looking to a technological solutions to help them plot their new direction. Event Page
+Initial discussion of relevant details
+
+ Von Digitalis Estate is made up of:
+	•	Currently: 5000 visitors a day: That’s about equal to about a ten visitors a second.
+	⁃	This will generate a spike of traffic on open (and perhaps closing time) and a steady stream of telemetry and monitoring throughout the day
+	•	Growth plans to 15,000: These are probably wild guesstimates: it would be wise to be able to scale and cope with a good deal more:  Retaining the ability for x10 capacity increase would be wise. And given the uncertainty, new projects will likely to also be accommodated.
+
+‘Predictions are hard, especially about the future’ Niels Bohr
+
+	•	There’s several broad themes in several domains:
+	⁃	Tickets and passes
+	⁃	Visitor activity tracking and sensors: for trends and strategic planning
+	⁃	Asset telemetry: track activities, health and behaviour of the 40 amusement rides &amp; 200 animals/plants/fish enclosures
+</Text>
+        </Document>
+        <Document ID="CDDF52AE-102B-4FA9-87E7-E1C3F100AF10">
+            <Title>MQTT + Events</Title>
+            <Text>
+Midway Event Bus
+
+Content is user-generated and unverified.
+
+
+Sign in
+
+</Text>
+        </Document>
+        <Document ID="000FD30C-A6F3-47B9-9C5E-A995D01C3B4C">
+            <Title>follow up links</Title>
+            <Text>The Kickoff event: https://learning.oreilly.com/live-events/architectural-katas-2026-ai-assisted-software-architecture/0642572412906/
+
+Mentions: Recommended follow-up:
+	•	Read AI Engineering (book)
+	•	Read Fundamentals of Software Architecture, second edition (book)
+	•	Read Building Microservices, second edition (book)
+	•	Read Generative AI Design Patterns (book)
+	•	Take Generative AI in Production (live course with Skanda Vivek)
+	•	Take Microservices Bootcamp (live course with Sam Newman)
+	•	Take Software Architecture by Example (live course with Neal Ford and Mark Richards)
+See also
+	•	Communicating Software Architecture View details
+	•	System Design Interview Boot Camp View details
+	•	Software Architecture Characteristics  View details
+</Text>
+        </Document>
+        <Document ID="E297D0E9-3F3B-44BE-8BA6-B976FAB8DBE0">
+            <Title>Python Code</Title>
+            <Text>#| label: fig-label
+#| fig-cap: Place your figure caption here.
+
+# Place your Python code here, see https://quarto.org/docs/computations/python.html 
+
+
+</Text>
+            <Notes>See https://quarto.org/docs/computations/r.htmlfor details.</Notes>
+        </Document>
+        <Document ID="1E8405F4-2C3C-4EEA-AE91-A30A669CBA56">
+            <Title>Mermaid Graph</Title>
+            <Text>%%|label: fig-label
+%%|fig-cap: A Mermaid figure using a Scrivener Section Type [Diagram Mermaid], see https://quarto.org/docs/authoring/diagrams.html for more details
+%%| fig-width: 5
+%%{init: {
+  "themeCSS": ".extension { fill: white !important; };"
+}}%%
+
+
+</Text>
+        </Document>
+        <Document ID="E6AB68C4-7984-42B9-B7B5-E97DFF5D254F">
+            <Title>Tip Callout</Title>
+            <Text>This is a tip callout.</Text>
+        </Document>
+        <Document ID="AD107F76-1964-416F-8DD0-01B59C5A3060">
+            <Title>About this Template</Title>
+            <Text>TEMPLATE VERSION: V1.0.5
+This project template shows how to combine Scrivener and the scientific and technical publishing system, Quarto. Quarto is basically an opinionated wrapper around Pandoc, including templates for multiple outputs alongside numerous filters and extensions. 
+
+NOTE: there is a small Scrivener bug (fixed in V3.3.1 on macOS however) that causes the main compile metadata to reset. For older Scrivener, you must remove title and author metadata from the compiler metadata panel for this project to compile properly. In addition, for the sample content, if you don't have R installed, you must remove the [Stimulus Plotting] section from the compile list as they use R. R can easily be installed via homebrew: 
+
+    brew install homebrew/cask/r
+    brew install xquartz
+
+Then run R from the terminal and install the tidyverse and kableExtra packages, this should cover the dependencies:
+
+    install.packages("tidyverse")
+    install.packages("kableExtra")
+
+Finally, you must edit the Metadata paths and fonts to those available on your system for the compile to succeed. The script replaces ${USERHOME} with your home folder path, but it is up to you to set up the rest of the path. I use my pandoc folder to store my bibliography, cal and templates files, so for example my CSL file is stored at ${USERHOME}/.local/share/pandoc/csl/apa.csl
+
+For the bibliography you need to replace the in-text citations like [@siegel2015] with your own, or export my Core.json to a location specified by the Metadata bibliography key. The CSL file is also available and you can export it from apa.csl and point to it using the csl metadata key. 
+
+If you want to use the same fonts I specify, you can install them from homebrew in the terminal (https://brew.sh):
+
+    brew tap homebrew/cask-fonts
+    brew install font-alegreya font-alegreya-sans
+
+As I already demonstrate how to use Scrivener with pandoc, it was trivial to add a new workflow for supporting the use of Scrivener with the new technical and scientific publishing system, Quarto. Quarto bundles Pandoc along with a set of extensions and templates to provide an all-in-one experience, including Tufte-like output, extensive cross-referencing of equations tables figures &amp; code, and running code (R, Python, Julia, Dot, Mermaid etc.) to generate figures and complex layouts.
+
+Because Scrivener supports Pandoc-flavoured markdown and automated post-processing, it also supports Quarto. However, for cross-referencing it places the labels at the end of the line, which conflicts with Scrivener’s block style injection of markup. A small mod of an existing pandoc-crossref post-processing script solved this problem. The script run from the post-processing pane of the Scrivener compiler runs quarto automatically after tweaking the path and fixing the cross-references.
+
+Most features of Quarto can be enabled via three routes:
+
+	1	Enabled using Scrivener styles — example: Callouts, Live Code. The only caveat is Scrivener doesn’t allow paragraph [block] styles to be nested.
+	2	Enabled using Scrivener Section Layouts — example: Multipanel images / tables using cross-referencing attributes. This method enables nested blocks.
+	3	You can always write plain markdown in the editor if you prefer…
+
+Quarto’s documentation is excellent. Some of the cool features that Quarto includes:
+
+	1	Panels with sub-figures and sub-tables.
+	2	Based on Tufte, you can use margins for notes, figures, equations etc. Layout can be modified to span the page in many ways.
+	3	Comprehensive cross-referencing, using Pandoc’s @citation markup (based on pandoc-crossref). For sub-figures / tables, it will add labels, like Figure 3(c) and these can be customised in th metadata.
+	4	Academic author + affiliation metadata «similar to scrivomatic and pandoc scholar».
+	5	Run Python, R, Julia code “live” to plot figures on each compile.
+	6	Use graphing engines like Mermaid and Graphviz.
+	7	HTML output has lots of cool tweaks, see https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html for example.
+	8	Quarto allows installable extensions, so you can plug in new layout templates and code to extend its powers!
+
+
+Quarto install almost everything required (you can use it to manage Pandoc, LaTeX, Graphviz, Mermaid and other tools all-in-one). For LaTeX it can install and update TinyTeX, allowing a small install footprint and automated addition of packages from CTAN. If you want to use R then you must install it yourself.
 </Text>
         </Document>
     </Documents>

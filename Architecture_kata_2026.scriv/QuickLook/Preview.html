@@ -98,6 +98,13 @@
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Using Do...</p>
 </li>
 <li>
+<p class="topLevelItemTitle">Architectural Characteristics</p>
+<p class="itemText">Keeping NFRs and architectural characteristics in mind orients the project on it’s real goals.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">It would be an early discussion topic, but these are some that are likely to be selected:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Extensibility: As is typical there’s a lot of unknowns in the future direction of the project. Meeting current requirements is table stakes; we need to be able to accomodate any and all future directions.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Reliability and Availability: As a system with life-support and e-commerce aspects, at least it should d...</p>
+</li>
+<li>
 <p class="topLevelItemTitle">Review of the Project Scope</p>
 <p class="itemText">The Project involves thinking about an estate that’s seeking a new direction and is looking to a technological solutions to help them plot their new direction. Event Page</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Initial discussion of relevant details</span></p></p>
@@ -116,20 +123,42 @@
 <p class="itemTitle">0: Process and tools</p>
 <p class="itemText">Status: Accepted</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Context:</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Firstly let’s set the tools, rules, and processes</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Firstly let’s set the tools, rules, and processes. ADRs, DDD and AI…</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Decision:</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will proceed using ADRs</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will use Domain Driven Design as a analyis framework</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will seek AI feedback on each ADR</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will use Scrivener to manage<span class="Apple-converted-space">  </span>documents, links, research and deliverables.<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will seek AI feedback on each ADR: in a dedicated section</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will use Scrivener to manage<span class="Apple-converted-space">  </span>documents, links, research and deliverables.</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Considered Options:</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Having a structured Approach is sine qua non</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Consequences:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Consequences &amp; Trade-offs:</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Positive: This will provide a record of decisions and be methodical</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Negative: Requires discipline.</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Nega...</p>
+</li>
+<li>
+<p class="itemTitle">1: Using DDD</p>
+<p class="itemText">Status: Proposed</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Context</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Following ADR-0 we're using Domain-Driven Design as the analysis framework before moving on. So firsly let’s decompose the monolith into services, and classify them.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Decision</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Six bounded contexts</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">1. Ticketing &amp; Passes — sells tickets and family passes, issues entitlements, validates entry at the gate.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">2. Identity &amp; Visitor Accounts — visitor profiles, family/group membership, consent and privacy flags<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">3. Payments — thin ACL wrapper around a third-party provider; isolat...</p>
 </li>
 </ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Deliverables</p>
+<p class="itemText">Summary of the Solution<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• C4 based Mermaid Diagrams of the Domain Models &amp; components</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• ADRs</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Implementation Details</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>•<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
 </ul>
 
 </td>
