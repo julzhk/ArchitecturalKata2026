@@ -1,87 +1,18 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AvenirNext-DemiBold;\f2\fnil\fcharset0 AvenirNext-Regular;
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AvenirNext-Bold;\f2\fnil\fcharset0 AvenirNext-Regular;
 }
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl288\slmult1\sb280\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 <$Scr_H::2><$Scr_Ps::0>
-\f1\b\fs36 Status: 
-\f2\b0\fs24 Proposed
-\f1\b\fs36 \
-Context\
 \pard\tx0\tx0\tx567\tx1134\tx1701\sl312\slmult1\pardirnatural\qj\partightenfactor0
 
-\f0\b0\fs24 \cf0 <!$Scr_H::2><!$Scr_Ps::0>
-\f2 Following ADR-0 we're using Domain-Driven Design as the analysis framework before moving on. So firsly let\'92s decompose the monolith into services, and classify them.\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl288\slmult1\sb280\pardirnatural\partightenfactor0
-
-\f0 \cf0 <$Scr_H::2><$Scr_Ps::0>
-\f1\b\fs36 Decision\
-\pard\tx0\tx0\tx567\tx1134\tx1701\sl312\slmult1\pardirnatural\qj\partightenfactor0
-
-\f0\b0\fs24 \cf0 <!$Scr_H::2><!$Scr_Ps::0>
-\f2 \
-Six bounded contexts\
-1. Ticketing & Passes \'97 sells tickets and family passes, issues entitlements, validates entry at the gate.\
-2. Identity & Visitor Accounts \'97 visitor profiles, family/group membership, consent and privacy flags \
-3. Payments \'97 thin ACL wrapper around a third-party provider; isolates card/PCI concerns.\
-4. Ride Telemetry & Safety \'97 ingests sensor data (usage, faults, e-stop events) from the 40 rides.\
-5. Animal Welfare Telemetry \'97 ingests health, feeding and population data across 55 enclosures.\
-6. Visitor Insight & Personalization (Core) \'97 consumes events from every other context; runs demand prediction, anomaly detection, recommendations; publishes insight back out.\
+\f0\fs24 \cf0 <$Scr_Cs::0>
+\f1\b Status:
+\f0\b0 <!$Scr_Cs::0>
+\f2  Accepted\
 \
-C4 views\
-Two levels of the C4 model make the same decision concrete: who touches the platform at all, and what sits inside it.\
-\
-Fig 2, 3, 4\
-Persistence style \'97 event sourcing where it earns its keep\
-\
-Every context already publishes domain events for integration. The remaining question is whether a context's own source of truth is the current state (state-oriented / CRUD) or the full append-only event log (event-sourced), with current state and every read model rebuilt from it.\
-\
-We apply event sourcing selectively: to the four contexts where an audit trail, incident reconstruction, or retroactive AI feature extraction has real business value \'97 Ticketing & Passes, Ride Telemetry & Safety, Animal Welfare Telemetry, and Visitor Insight & Personalization. Identity & Visitor Accounts and Payments stay state-oriented \'97 they're generic, solved-problem subdomains where an event store buys complexity without buying much.\
-Fig 5,6,7\
-An append-only log and a visitor's right to be forgotten are in tension. Ticketing events will carry personal data \'97 see the AI Feedback watch points below, and forthcoming ADR-8.\
-\
-Considered Options\
-\
-Two separate axes: A-C decide how the platform splits into contexts; D-F decide how those contexts keep their own state.\
-A. Single monolithic \'93Estate Platform\'94 with one shared data model \'97 rejected: couples safety-critical ride data to marketing personalization, and blocks independent iteration on Visitor Insight without redeploying ticketing.\
-B. Six bounded contexts, event-integrated \'97 CHOSEN. Matches the three domains named in the brief, isolates the safety-critical ride path from analytics, and lets the AI-heavy core domain evolve independently.\
-C. Two contexts only, Commerce vs Telemetry \'97 rejected: still conflates ride safety with animal welfare (different cadence and criticality) and conflates ticketing with AI personalization (different rate of change).\
-D. State-oriented (CRUD) persistence everywhere \'97 rejected as the sole approach: throws away the audit trail and replay capability that Ride Telemetry, Animal Welfare, Ticketing and Visitor Insight would all benefit from.\
-E. Event sourcing for every context, uniformly \'97 rejected: forces an event store, snapshotting and projection-rebuild machinery onto Identity and Payments, where nothing about the problem calls for it.\
-F. Event sourcing where it earns its keep \'97 CHOSEN. Event-sourced for Ticketing & Passes, Ride Telemetry & Safety, Animal Welfare Telemetry and Visitor Insight & Personalization; state-oriented for Identity and Payments.\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl288\slmult1\sb280\pardirnatural\partightenfactor0
 
-\f0 \cf0 <$Scr_H::2><$Scr_Ps::0>
-\f1\b\fs36 Consequences & Trade-offs\
-\pard\tx0\tx0\tx567\tx1134\tx1701\sl312\slmult1\pardirnatural\qj\partightenfactor0
-
-\f0\b0\fs24 \cf0 <!$Scr_H::2><!$Scr_Ps::0>
-\f2 Positive\
-Safety-critical ride telemetry is isolated from experimental AI/personalization code \'97 a bad model in Visitor Insight can't block gate entry or an e-stop signal.\
-The core domain can iterate quickly and stay AI-heavy, decoupled from the more conservatively-changing supporting contexts.\
-Matches the three domains already named in the brief, so it should translate cleanly into team and AI-assisted ownership.\
-Event sourcing on Ticketing, Ride Telemetry, Animal Welfare and Visitor Insight gives a full audit trail, safety-incident reconstruction, and the ability to backfill new AI metrics from history instead of re-instrumenting the park.\
-Negative\
-Six contexts means six things to deploy, monitor and secure instead of one \'97 real overhead a kata-scale build must account for (ADR-3).\
-The Ticketing<->Identity Shared Kernel is a known coupling risk without a named owner.\
-The six-way map needs discipline, or Visitor Insight will end up reaching directly into another context's database as a shortcut.\
-Event-sourced contexts need snapshotting once their logs grow, and a schema-evolution (upcasting) strategy for event payloads over the estate's lifetime.\
-An immutable event log makes deleting one visitor's personal data harder.\
-AI Feedback (per ADR-0)\
-The Shared Kernel between Ticketing & Passes and Identity & Visitor Accounts is the riskiest relationship on this map. Name a single owner for it now, before it calcifies.\
-\'93Safety-critical\'94 for Ride Telemetry & Safety is asserted here but not yet backed by a concrete latency/availability target \'97 ADR-6 should quantify that so this isolation is testable, not aspirational.\
-Collapsing every AI use case into one Visitor Insight context is a reasonable v1 simplification, but an animal-health anomaly detector and a marketing recommendation carry very different risk profiles in reality. Flag as a candidate future split, not settled.\
-Open question for the Countess/stakeholder: is Payments truly generic, or does family-pass pricing/discounting belong closer to Ticketing than to a generic payment gateway? Worth confirming before ADR-5.\
-Event sourcing on Ticketing & Passes means the log will contain personal data tied to an identifiable visitor. An append-only store and a GDPR erasure request are in direct tension \'97 resolve with crypto-shredding (encrypt per-visitor, delete the key) or by keeping personal data out of the event payload and referencing it by pseudonymous ID instead. Treat as a hard requirement for ADR-8, not an afterthought.\
-Snapshotting policy for Ride Telemetry & Safety and Animal Welfare Telemetry isn't decided here \'97 with 40 rides and 55 enclosures streaming continuously, replaying from event zero stops being cheap well before year three's 15,000-visitor target.\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl288\slmult1\sb280\pardirnatural\partightenfactor0
-
-\f0 \cf0 <$Scr_H::2><$Scr_Ps::0>
-\f1\b\fs36 Related & anticipated\
-\pard\tx0\tx0\tx567\tx1134\tx1701\sl312\slmult1\pardirnatural\qj\partightenfactor0
-
-\f0\b0\fs24 \cf0 <!$Scr_H::2><!$Scr_Ps::0>
-\f2 Builds on ADR-0 (Process and tools). Anticipated follow-on ADRs: ADR-2 (edge-to-cloud connectivity), ADR-3 (event backbone), ADR-5 (ticketing and passes), ADR-6 (ride safety isolation), ADR-7 (elasticity), ADR-8 (visitor data privacy), ADR-9 (AI integration points).\
+\f0 <$Scr_Cs::0>
+\f1\b Context
+\f0\b0 <!$Scr_Cs::0>
+\f2 : Propose Domain-Driven Design as the analysis framework; we know there\'92s complex business logic and need to decompose the monolith into services and have a start at classifying them.\
 }

@@ -122,30 +122,66 @@
 <li>
 <p class="itemTitle">0: Process and tools</p>
 <p class="itemText">Status: Accepted</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Context:</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Firstly let’s set the tools, rules, and processes. ADRs, DDD and AI…</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Context: Firstly let’s set the tools, rules, and processes. ADRs, DDD and AI…</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Decision:</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will proceed using ADRs</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will use Domain Driven Design as a analyis framework</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will seek AI feedback on each ADR: in a dedicated section</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Will use Scrivener to manage<span class="Apple-converted-space">  </span>documents, links, research and deliverables.</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Considered Options:</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Having a structured Approach is sine qua non</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Having a structured Approach is somewhat necessary<span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Consequences &amp; Trade-offs:</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Positive: This will provide a record of decisions and be methodical</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• Nega...</p>
+<p class="itemText"><p class="p1"><span class="s1">...</p>
 </li>
 <li>
 <p class="itemTitle">1: Using DDD</p>
-<p class="itemText">Status: Proposed</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Context</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Following ADR-0 we're using Domain-Driven Design as the analysis framework before moving on. So firsly let’s decompose the monolith into services, and classify them.</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Decision</span></p></p>
+<p class="itemText">Status: Accepted</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Context: Propose Domain-Driven Design as the analysis framework; we know there’s complex business logic and need to decompose the monolith into services and have a start at classifying them.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="itemTitle">Domains diagram</p>
+<p class="itemText">%%|label: fig-mermaid</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">%%|fig-width: 6</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Six bounded contexts</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">flowchart LR</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>VI[Visitor Insight and Personalization - Core]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>TP[Ticketing and Passes - Supporting]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>RT[Ride Telemetry and Safety - Supporting]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>AW[Animal Welfare Telemetry - Supporting]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>ID[Identity and Visitor Accounts - Generic]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>PAY[Payments - ACL - Generic]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>STAFF(Staff Dashboard)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>APP(Visitor App)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>PSP(External Payment Provider)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>MAINT(Maintenance and Safety Inspection - Supporting)</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>TP ---|Sha...</p>
+</li>
+<li>
+<p class="itemTitle">Decision</p>
+<p class="itemText">Decision</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">There are six bounded contexts</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">1. Ticketing &amp; Passes — sells tickets and family passes, issues entitlements, validates entry at the gate.</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1">2. Identity &amp; Visitor Accounts — visitor profiles, family/group membership, consent and privacy flags<span class="Apple-converted-space"> </span></span></p></p>
-<p class="itemText"><p class="p1"><span class="s1">3. Payments — thin ACL wrapper around a third-party provider; isolat...</p>
+<p class="itemText"><p class="p1"><span class="s1">3. Payments — thin ACL wrapper around a third-party provider; isolates card/PCI concerns.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">4. Ride Telemetry &amp; Safety — ingests sensor data (usage, faults, e-stop events) from the 40 rides.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">5. Animal Welfare Telemetry — ingests health, feeding and po...</p>
+</li>
+<li>
+<p class="itemTitle">System Context diagram</p>
+<p class="itemText">%%|label: fig-mermaid</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">%%|fig-width: 6</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">C4Context</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>title System Context - Actors in the Von Digitalis Estate Platform</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>Person(visitor, "Visitor", "Buys tickets, explores the estate, uses the visitor app")</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>Person(staff, "Estate Staff", "Monitors popularity, staffing, ride and animal welfare alerts")</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>Person(countess, "Countess Von Digitalis / Management Team", "Reviews profitability and growth insight")</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>System_Ext(psp, "Payment Provider", "Card and payment processing")</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>System(platform, "V...</p>
 </li>
 </ul>
 <hr class="afterText"/>

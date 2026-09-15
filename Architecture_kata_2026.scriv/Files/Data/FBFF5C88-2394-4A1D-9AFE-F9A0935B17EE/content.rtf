@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red192\green239\blue251;}
+{\*\expandedcolortbl;;\cssrgb\c79200\c94900\c98800;}
+\pard\tx0\tx0\tx567\tx1134\tx1701\sl312\slmult1\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 \cb2 <$Scr_Ps::0>
+\f1 %%|label: fig-mermaid\
+%%|fig-width: 3\
+\
+C4Container\
+  title Container Diagram - Von Digitalis Estate Platform\
+\
+  Person(visitor, "Visitor")\
+  Person(staff, "Estate Staff")\
+\
+  System_Boundary(platform, "Von Digitalis Estate Platform") \{\
+    Container(app, "Visitor App", "Mobile and Web", "Ticket purchase, family passes, recommendations")\
+    Container(ticketing, "Ticketing and Passes Service", "Bounded Context", "Sells tickets and passes, gate entitlement")\
+    Container(payacl, "Payments ACL", "Bounded Context", "Anticorruption layer to the payment provider")\
+    \
+    Container(dash, "Staff Dashboard", "Web", "Popularity, staffing and welfare alerts")\
+    Container(identity, "Identity and Visitor Accounts", "Bounded Context", "Visitor profiles, family membership, consent")\
+    Container(ride, "Ride Telemetry and Safety", "Bounded Context", "Ingests ride sensor and safety events")\
+    Container(animal, "Animal Welfare Telemetry", "Bounded Context", "Ingests enclosure and vitals sensor data")\
+    Container(insight, "Visitor Insight and Personalization", "Bounded Context - Core Domain", "Demand prediction, anomaly detection, recommendations")\
+    ContainerDb(events, "Event Backbone", "MQTT and Streaming", "Domain event distribution")\
+    ContainerDb(tsdb, "Telemetry Store", "Time-series Database", "Ride and animal sensor history")\
+  \}\
+  System_Ext(edge, "Park Edge Devices")\
+\
+  System_Ext(psp, "Payment Provider")\
+  \
+  Rel(visitor, app, "Uses")\
+  Rel(staff, dash, "Uses")\
+  Rel(app, ticketing, "Buys passes")\
+  Rel(ticketing, identity, "Reads or writes visitor identity")\
+  Rel(ticketing, payacl, "Charges via")\
+  Rel(payacl, psp, "Calls")\
+  Rel(edge, ride, "Streams sensor data")\
+  Rel(edge, animal, "Streams sensor data")\
+  Rel(ride, events, "Publishes events to")\
+  Rel(animal, events, "Publishes events to")\
+  Rel(ticketing, events, "Publishes events to")\
+  Rel(events, insight, "Consumed by")\
+  Rel(ride, tsdb, "Writes to")\
+  Rel(animal, tsdb, "Writes to")\
+  Rel(insight, dash, "Publishes staffing insight to")\
+  Rel(insight, app, "Publishes recommendations to")\
+\
+  \
+\
+
+\f0 <!$Scr_Ps::0>}

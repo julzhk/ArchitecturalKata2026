@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="DC0850C4-534D-4312-AE8F-F2A272A775CF" Version="2.0" Creator="SCRMAC-3.5.1-17446" Device="titan" Author="" Modified="2026-09-14 11:37:53 -0300" ModID="B738B9D1-575B-46B9-B82C-4A800BB5169B">
+<ScrivenerProject Identifier="DC0850C4-534D-4312-AE8F-F2A272A775CF" Version="2.0" Creator="SCRMAC-3.5.1-17446" Device="titan" Author="" Modified="2026-09-14 21:45:01 -0300" ModID="7B1630A4-E7A1-4EB6-8933-72AE46D95548">
     <Binder>
         <BinderItem UUID="6E166A5C-F0A7-4B33-9751-BD511DBF6F55" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-13 08:40:39 -0300">
             <Title>Metadata</Title>
@@ -41,7 +41,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>1430,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="C0115381-CFEA-4D13-BB6A-C990B005A2EC" Type="Text" Created="2026-09-09 22:35:53 -0300" Modified="2026-09-14 11:18:46 -0300">
@@ -51,7 +51,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>209,0</TextSelection>
+                        <TextSelection>519,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="A109A89F-D1F8-4EE8-8AEB-77AE03705030" Type="Folder" Created="2026-09-10 14:03:58 -0300" Modified="2026-09-10 14:04:02 -0300">
@@ -63,23 +63,74 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="B843BFA6-105F-49EA-9CFB-9D7CCD0ECDD4" Type="Text" Created="2026-09-10 20:43:20 -0300" Modified="2026-09-11 13:07:30 -0300">
+                        <BinderItem UUID="B843BFA6-105F-49EA-9CFB-9D7CCD0ECDD4" Type="Text" Created="2026-09-10 20:43:20 -0300" Modified="2026-09-14 21:31:57 -0300">
                             <Title>0: Process and tools</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>25,0</TextSelection>
+                                <TextSelection>402,26</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="15334A3F-F450-45A9-ACA4-968448AB7E9A" Type="Text" Created="2026-09-13 08:16:23 -0300" Modified="2026-09-13 09:41:42 -0300">
+                        <BinderItem UUID="15334A3F-F450-45A9-ACA4-968448AB7E9A" Type="Text" Created="2026-09-13 08:16:23 -0300" Modified="2026-09-14 21:43:29 -0300">
                             <Title>1: Using DDD</Title>
                             <MetaData>
                                 <SectionType>6452C414-94A2-41E1-A014-A97B441B91F8</SectionType>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>894,0</TextSelection>
+                                <TextSelection>17,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="9EFF15D4-CA5E-47C0-8CDA-0DA6E6B25791" Type="Text" Created="2026-09-14 11:44:00 -0300" Modified="2026-09-14 21:27:19 -0300">
+                            <Title>Domains diagram</Title>
+                            <MetaData>
+                                <SectionType>E93F9107-A3D9-44D0-85BD-2F3F939276DC</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Figures and Graphs</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>22,15</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="371C75CD-A352-4192-93CF-93D3287D6C91" Type="Text" Created="2026-09-14 21:07:04 -0300" Modified="2026-09-14 21:45:01 -0300">
+                            <Title>Decision</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>707,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="A7168CE8-1067-4096-A427-1C54C63E507E" Type="Text" Created="2026-09-14 21:35:51 -0300" Modified="2026-09-14 21:35:53 -0300">
+                            <Title>Decision-1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="79DCA562-1E22-4C06-A1C4-A53318DE3EAE" Type="Text" Created="2026-09-14 11:44:00 -0300" Modified="2026-09-14 21:42:14 -0300">
+                            <Title>System Context diagram</Title>
+                            <MetaData>
+                                <SectionType>E93F9107-A3D9-44D0-85BD-2F3F939276DC</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Figures and Graphs</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>37,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="FBFF5C88-2394-4A1D-9AFE-F9A0935B17EE" Type="Text" Created="2026-09-14 11:44:00 -0300" Modified="2026-09-14 21:42:14 -0300">
+                            <Title>Container Context diagram</Title>
+                            <MetaData>
+                                <SectionType>E93F9107-A3D9-44D0-85BD-2F3F939276DC</SectionType>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Figures and Graphs</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>37,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -254,10 +305,6 @@
                     <TextSettings>
                         <TextSelection>52,0</TextSelection>
                     </TextSettings>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="AD107F76-1964-416F-8DD0-01B59C5A3060"/>
-                        <Bookmark BinderUUID="E8956215-97C1-41DA-8AB9-50C2891EA656"/>
-                    </Bookmarks>
                 </BinderItem>
                 <BinderItem UUID="4999718C-11F3-4D34-ACCA-BB27CFC74482" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
                     <Title>Figure + Attributes</Title>
@@ -289,10 +336,6 @@
                     <TextSettings>
                         <TextSelection>99,0</TextSelection>
                     </TextSettings>
-                    <Bookmarks>
-                        <Bookmark BinderUUID="AD107F76-1964-416F-8DD0-01B59C5A3060"/>
-                        <Bookmark BinderUUID="E8956215-97C1-41DA-8AB9-50C2891EA656"/>
-                    </Bookmarks>
                 </BinderItem>
                 <BinderItem UUID="9E10C7D5-D2D9-48A7-A5F4-5CB69C0ED66F" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
                     <Title>Multipart Table</Title>
@@ -421,71 +464,12 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem UUID="C270D3BA-1995-482D-AF9E-F5992A5AF56E" Type="Text" Created="2026-09-10 10:21:27 -0300" Modified="2026-09-10 10:21:45 -0300">
-                    <Title>schedule</Title>
+                <BinderItem UUID="14D260D0-748A-484A-9537-28FA0915A49A" Type="Text" Created="2026-09-14 21:15:08 -0300" Modified="2026-09-14 21:15:08 -0300">
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
                         <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="BA71EB43-B6A9-444A-97CF-041624B52DD1" Type="Text" Created="2026-09-10 14:01:39 -0300" Modified="2026-09-10 14:01:39 -0300">
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="F59D4BB3-2F47-4FF7-8B38-B165E0FFD754" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-09 16:59:34 -0300">
-                    <Title>Compiler script details</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <IconFileName>Information</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>488,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="E8956215-97C1-41DA-8AB9-50C2891EA656" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-13 08:35:10 -0300">
-                    <Title>How to write?</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <IconFileName>Information</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="AD107F76-1964-416F-8DD0-01B59C5A3060" Type="Text" Created="2026-09-09 16:59:34 -0300" Modified="2026-09-13 08:36:49 -0300">
-                    <Title>About this Template</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <IconFileName>Information</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="F72817D3-6836-4C5D-8F7D-0F093216FFFE" Type="Text" Created="2026-09-13 08:14:04 -0300" Modified="2026-09-13 08:16:25 -0300">
-                    <Title>1:Using Domain Driven Design</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,3</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="06116FB7-81EC-4E24-B803-C3B562217A23" Type="Text" Created="2026-09-09 16:19:34 -0300" Modified="2026-09-13 10:06:24 -0300">
-                    <Title>Mermaid Figure</Title>
-                    <MetaData>
-                        <SectionType>E93F9107-A3D9-44D0-85BD-2F3F939276DC</SectionType>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <IconFileName>Figures and Graphs</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>12,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -588,11 +572,11 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-30 08:51:22 -0300" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2026-09-15 01:00:00 -0300" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="262" Characters="1638" Date="2026-09-14 11:05:41 -0300"/>
+        <PreviousSession Words="276" Characters="1857" Date="2026-09-14 11:05:41 -0300"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2026-09-14 00:00:00 -0300">
-        <DraftWordCount>262</DraftWordCount>
-        <DraftCharCount>1638</DraftCharCount>
+        <DraftWordCount>276</DraftWordCount>
+        <DraftCharCount>1857</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>-239</OtherCharCount>
     </RecentWritingHistory>
